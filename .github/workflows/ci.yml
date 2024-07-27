@@ -26,8 +26,7 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker buildx create --use
-          docker buildx build --platform linux/arm64 -t ronirola/gauge-service-test:latest .
+          docker build -t ronirola/gauge-service-test:latest .
           docker push ronirola/gauge-service-test:latest
 
       - name: Run tests
