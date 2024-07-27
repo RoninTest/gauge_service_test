@@ -1,30 +1,23 @@
-FROM ubuntu:latest
-LABEL authors="alierendasdemir"
+FROM openjdk:11-jdk-slim
 
-RUN apt-get update && apt-get install -y \
-    curl \
-    zip \
-    apt-transport-https \
-    gnupg2 \
-    ca-certificates \
-    maven \
-    wget \
-    openjdk-11-jdk
+# Install Maven
+RUN apt-get update && apt-get install -y maven curl unzip
 
+# Install Gauge
 RUN curl -SsL https://downloads.gauge.org/stable | sh
+RUN gauge install java && gauge install screenshot
 
-RUN gauge install java && \
-    gauge install screenshot
-
+# Set working directory
 WORKDIR /app
+
+# Copy application files
 COPY . /app
 
-COPY gauge.properties /app/gauge.properties
-
-# Config
+# Copy configuration file
 COPY configService.properties /app/configService.properties
 
-# Environment variables
+# Set environment variables
 ENV PATH=$HOME/.gauge:$PATH
 
+# Run tests
 CMD ["mvn", "gauge:execute", "-DspecsDir=specs"]
