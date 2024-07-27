@@ -13,6 +13,9 @@ RUN apt-get update && apt-get install -y \
 
 RUN curl -SsL https://downloads.gauge.org/stable | sh
 
+# Ensure Gauge is in PATH
+ENV PATH="/root/.gauge/bin:${PATH}"
+
 RUN gauge install java && \
     gauge install screenshot
 
@@ -25,6 +28,6 @@ COPY gauge.properties /app/gauge.properties
 COPY configService.properties /app/configService.properties
 
 # Environment variables
-ENV PATH=$HOME/.gauge:$PATH
+ENV PATH="/root/.gauge/bin:${PATH}"
 
-CMD ["mvn", "gauge:execute", "-DspecsDir=specs"]
+CMD ["mvn", "gauge:execute"]
