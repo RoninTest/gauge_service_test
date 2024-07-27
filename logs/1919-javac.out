@@ -1,0 +1,61 @@
+src/test/java/StepImplementation.java:4: error: package io.restassured does not exist
+import static io.restassured.RestAssured.given;
+                            ^
+src/test/java/StepImplementation.java:4: error: static import only from classes and interfaces
+import static io.restassured.RestAssured.given;
+^
+src/test/java/infrastructure/singleton/RestAsFactory.java:3: error: package groovy.lang does not exist
+import groovy.lang.Singleton;
+                  ^
+src/test/java/infrastructure/singleton/RestAsFactory.java:4: error: package io.restassured.builder does not exist
+import io.restassured.builder.RequestSpecBuilder;
+                             ^
+src/test/java/infrastructure/singleton/RestAsFactory.java:5: error: package io.restassured.specification does not exist
+import io.restassured.specification.RequestSpecification;
+                                   ^
+src/test/java/infrastructure/singleton/RestAsFactory.java:8: error: package io.restassured.http does not exist
+import static io.restassured.http.ContentType.JSON;
+                                 ^
+src/test/java/infrastructure/singleton/RestAsFactory.java:8: error: static import only from classes and interfaces
+import static io.restassured.http.ContentType.JSON;
+^
+src/test/java/infrastructure/singleton/RestAsFactory.java:10: error: cannot find symbol
+@Singleton
+ ^
+  symbol: class Singleton
+src/test/java/infrastructure/singleton/RestAsFactory.java:12: error: cannot find symbol
+    public RequestSpecification getBaseApiRequest() {
+           ^
+  symbol:   class RequestSpecification
+  location: class RestAsFactory
+src/test/java/infrastructure/singleton/RestAsFactory.java:20: error: cannot find symbol
+    public RequestSpecification postApiRequest() {
+           ^
+  symbol:   class RequestSpecification
+  location: class RestAsFactory
+src/test/java/StepImplementation.java:13: error: cannot find symbol
+        given().spec(restAssFactory.getBaseApiRequest())
+        ^
+  symbol:   method given()
+  location: class StepImplementation
+src/test/java/infrastructure/singleton/RestAsFactory.java:15: error: cannot find symbol
+                .setContentType(JSON)
+                                ^
+  symbol:   variable JSON
+  location: class RestAsFactory
+src/test/java/infrastructure/singleton/RestAsFactory.java:14: error: cannot find symbol
+        return new RequestSpecBuilder()
+                   ^
+  symbol:   class RequestSpecBuilder
+  location: class RestAsFactory
+src/test/java/infrastructure/singleton/RestAsFactory.java:23: error: cannot find symbol
+                .setContentType(JSON)
+                                ^
+  symbol:   variable JSON
+  location: class RestAsFactory
+src/test/java/infrastructure/singleton/RestAsFactory.java:22: error: cannot find symbol
+        return new RequestSpecBuilder()
+                   ^
+  symbol:   class RequestSpecBuilder
+  location: class RestAsFactory
+15 errors

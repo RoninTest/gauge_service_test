@@ -1,0 +1,12 @@
+<testsuites>
+	<testsuite id="1" tests="5" failures="0" package="/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec" time="6.176" timestamp="2024-07-28T00:34:13" name="Heroku Booking Heading" errors="0" hostname="192.168.1.45">
+		<properties></properties>
+		<testcase classname="Heroku Booking Heading" name="Create a new auth" time="2.451"></testcase>
+		<testcase classname="Heroku Booking Heading" name="Get all booking ids" time="0.800"></testcase>
+		<testcase classname="Heroku Booking Heading" name="Get booking id" time="0.751"></testcase>
+		<testcase classname="Heroku Booking Heading" name="Create new a booking" time="0.720"></testcase>
+		<testcase classname="Heroku Booking Heading" name="Check new booking id exist" time="1.454"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+</testsuites>

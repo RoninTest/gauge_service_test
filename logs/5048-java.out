@@ -1,0 +1,42 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 361milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 361"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 53751"}
+{"logLevel":"info","message":"Listening on port:53751"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.CreateANewAuth' and 'StepImplementation.CreateANewAuth'"}
+{"logLevel":"debug","message":"Found Create a new auth in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.CheckNewBookingIdExist' and 'StepImplementation.CheckNewBookingIdExist'"}
+{"logLevel":"debug","message":"Found Check new booking id exist in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.CreateNewBooking' and 'StepImplementation.CreateNewBooking'"}
+{"logLevel":"debug","message":"Found Create new booking in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.GetBookingId' and 'StepImplementation.GetBookingId'"}
+{"logLevel":"debug","message":"Found Get booking id in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.GetBookingIds' and 'StepImplementation.GetBookingIds'"}
+{"logLevel":"debug","message":"Found Get all booking ids in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tCreate a new auth : public void CreateANewAuth()"}
+{"logLevel":"debug","message":"\tCreate new booking : public String CreateNewBooking()"}
+{"logLevel":"debug","message":"\tGet booking id : public void GetBookingId()"}
+{"logLevel":"debug","message":"\tGet all booking ids : public void GetBookingIds()"}
+{"logLevel":"debug","message":"\tCheck new booking id exist : public void CheckNewBookingIdExist()"}
+{"logLevel":"debug","message":"Executing 'Create a new auth' using 'class StepImplementation.CreateANewAuth"}
+Token: 0d5c73f92b585ca
+{"logLevel":"debug","message":"Executing 'Get all booking ids' using 'class StepImplementation.GetBookingIds"}
+First Three BookingIds: [595, 1247, 1206]
+{"logLevel":"debug","message":"Executing 'Get booking id' using 'class StepImplementation.GetBookingId"}
+Guest Name: Eric Brown
+{"logLevel":"debug","message":"Executing 'Create new booking' using 'class StepImplementation.CreateNewBooking"}
+New Booking Id1335
+{"logLevel":"debug","message":"Executing 'Check new booking id exist' using 'class StepImplementation.CheckNewBookingIdExist"}
+New Booking Id1339
+Guest Name: Jim Brown
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}

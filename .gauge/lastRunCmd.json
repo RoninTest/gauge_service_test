@@ -1,0 +1,6 @@
+[
+	"gauge",
+	"run",
+	"--dir=/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test",
+	"/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs"
+]

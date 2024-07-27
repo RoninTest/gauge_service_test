@@ -1,0 +1,24 @@
+Listening for transport dt_socket at address: 52681
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 406milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 406"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 52687"}
+{"logLevel":"info","message":"Listening on port:52687"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.CreateANewAuth' and 'StepImplementation.CreateANewAuth'"}
+{"logLevel":"debug","message":"Found Create a new auth in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.GetBookingId' and 'StepImplementation.GetBookingId'"}
+{"logLevel":"debug","message":"Found Get booking id in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.GetBookingIds' and 'StepImplementation.GetBookingIds'"}
+{"logLevel":"debug","message":"Found Get all booking ids in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tCreate a new auth : public void CreateANewAuth()"}
+{"logLevel":"debug","message":"\tGet booking id : public void GetBookingId()"}
+{"logLevel":"debug","message":"\tGet all booking ids : public void GetBookingIds()"}
+{"logLevel":"debug","message":"Executing 'Get booking id' using 'class StepImplementation.GetBookingId"}

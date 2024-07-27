@@ -1,0 +1,575 @@
+27-07-2024 11:16:39.014 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+27-07-2024 11:16:39.014 [Gauge] [INFO] Initializing specs cache with 1 specs
+27-07-2024 11:16:39.014 [Gauge] [DEBUG] Adding specs from /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 11:16:39.014 [Gauge] [INFO] Initializing steps cache with 1 steps
+27-07-2024 11:16:39.014 [Gauge] [INFO] Gauge daemon initialized and listening on port: 51069
+27-07-2024 11:16:39.014 [Gauge] [DEBUG] Watching directory: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs
+27-07-2024 11:16:39.014 [Gauge] [DEBUG] Found 1 files
+27-07-2024 11:16:46.990 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to main page check status code"}
+27-07-2024 11:16:46.991 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to main page check status code" parameterizedStepValue:"Go to main page check status code"}}
+27-07-2024 22:02:55.699 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+27-07-2024 22:02:55.699 [Gauge] [INFO] Initializing specs cache with 1 specs
+27-07-2024 22:02:55.699 [Gauge] [DEBUG] Adding specs from /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:02:55.699 [Gauge] [INFO] Initializing steps cache with 1 steps
+27-07-2024 22:02:55.699 [Gauge] [INFO] Gauge daemon initialized and listening on port: 51162
+27-07-2024 22:02:55.699 [Gauge] [DEBUG] Watching directory: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs
+27-07-2024 22:02:55.699 [Gauge] [DEBUG] Found 1 files
+27-07-2024 22:03:19.772 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to main page check status code"}
+27-07-2024 22:03:19.772 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to main page check status code" parameterizedStepValue:"Go to main page check status code"}}
+27-07-2024 22:04:35.231 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to"}
+27-07-2024 22:04:35.231 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to" parameterizedStepValue:"Go to"}}
+27-07-2024 22:04:37.660 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to g"}
+27-07-2024 22:04:37.660 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to g" parameterizedStepValue:"Go to g"}}
+27-07-2024 22:04:37.769 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to go"}
+27-07-2024 22:04:37.769 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to go" parameterizedStepValue:"Go to go"}}
+27-07-2024 22:04:37.789 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:04:37.789 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to main page check status code" parameterizedStepValue:"Go to main page check status code"}}
+27-07-2024 22:04:37.791 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:04:37.791 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:04:37.795 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:04:37.795 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to main page check status code" parameterizedStepValue:"Go to main page check status code"}}
+27-07-2024 22:04:37.796 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:04:37.796 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:04:37.901 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to goo"}
+27-07-2024 22:04:37.901 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to goo" parameterizedStepValue:"Go to goo"}}
+27-07-2024 22:04:38.662 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to goog"}
+27-07-2024 22:04:38.662 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to goog" parameterizedStepValue:"Go to goog"}}
+27-07-2024 22:04:38.775 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to googl"}
+27-07-2024 22:04:38.775 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to googl" parameterizedStepValue:"Go to googl"}}
+27-07-2024 22:04:38.905 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google"}
+27-07-2024 22:04:38.905 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google" parameterizedStepValue:"Go to google"}}
+27-07-2024 22:04:41.045 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google a"}
+27-07-2024 22:04:41.045 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google a" parameterizedStepValue:"Go to google a"}}
+27-07-2024 22:04:41.047 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:04:41.047 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to main page check status code" parameterizedStepValue:"Go to main page check status code"}}
+27-07-2024 22:04:41.047 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:04:41.047 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:04:41.048 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:04:41.048 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to main page check status code" parameterizedStepValue:"Go to main page check status code"}}
+27-07-2024 22:04:41.048 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:04:41.048 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:04:41.209 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google an"}
+27-07-2024 22:04:41.209 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google an" parameterizedStepValue:"Go to google an"}}
+27-07-2024 22:04:41.321 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and"}
+27-07-2024 22:04:41.321 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and" parameterizedStepValue:"Go to google and"}}
+27-07-2024 22:04:42.610 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and c"}
+27-07-2024 22:04:42.610 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and c" parameterizedStepValue:"Go to google and c"}}
+27-07-2024 22:04:42.620 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:04:42.620 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to main page check status code" parameterizedStepValue:"Go to main page check status code"}}
+27-07-2024 22:04:42.620 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:04:42.620 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:04:42.621 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:04:42.621 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to main page check status code" parameterizedStepValue:"Go to main page check status code"}}
+27-07-2024 22:04:42.621 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:04:42.621 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:04:42.806 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and ch"}
+27-07-2024 22:04:42.806 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and ch" parameterizedStepValue:"Go to google and ch"}}
+27-07-2024 22:04:42.962 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and che"}
+27-07-2024 22:04:42.962 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and che" parameterizedStepValue:"Go to google and che"}}
+27-07-2024 22:04:43.065 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and chec"}
+27-07-2024 22:04:43.065 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and chec" parameterizedStepValue:"Go to google and chec"}}
+27-07-2024 22:04:43.188 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and check"}
+27-07-2024 22:04:43.188 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and check" parameterizedStepValue:"Go to google and check"}}
+27-07-2024 22:04:43.702 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and check s"}
+27-07-2024 22:04:43.702 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and check s" parameterizedStepValue:"Go to google and check s"}}
+27-07-2024 22:04:43.709 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:04:43.709 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to main page check status code" parameterizedStepValue:"Go to main page check status code"}}
+27-07-2024 22:04:43.709 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:04:43.709 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:04:43.710 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:04:43.710 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to main page check status code" parameterizedStepValue:"Go to main page check status code"}}
+27-07-2024 22:04:43.710 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:04:43.710 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:04:44.066 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and check st"}
+27-07-2024 22:04:44.066 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and check st" parameterizedStepValue:"Go to google and check st"}}
+27-07-2024 22:04:44.188 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and check sta"}
+27-07-2024 22:04:44.188 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and check sta" parameterizedStepValue:"Go to google and check sta"}}
+27-07-2024 22:04:44.279 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and check stat"}
+27-07-2024 22:04:44.279 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and check stat" parameterizedStepValue:"Go to google and check stat"}}
+27-07-2024 22:04:44.465 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and check statu"}
+27-07-2024 22:04:44.465 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and check statu" parameterizedStepValue:"Go to google and check statu"}}
+27-07-2024 22:04:44.654 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and check status"}
+27-07-2024 22:04:44.654 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and check status" parameterizedStepValue:"Go to google and check status"}}
+27-07-2024 22:04:45.577 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and check status c"}
+27-07-2024 22:04:45.577 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and check status c" parameterizedStepValue:"Go to google and check status c"}}
+27-07-2024 22:04:45.586 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:04:45.586 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to main page check status code" parameterizedStepValue:"Go to main page check status code"}}
+27-07-2024 22:04:45.586 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:04:45.586 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:04:45.586 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:04:45.587 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to main page check status code" parameterizedStepValue:"Go to main page check status code"}}
+27-07-2024 22:04:45.587 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:04:45.587 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:04:45.635 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and check status co"}
+27-07-2024 22:04:45.635 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and check status co" parameterizedStepValue:"Go to google and check status co"}}
+27-07-2024 22:04:45.764 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and check status cod"}
+27-07-2024 22:04:45.764 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and check status cod" parameterizedStepValue:"Go to google and check status cod"}}
+27-07-2024 22:04:45.835 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to google and check status code"}
+27-07-2024 22:04:45.835 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to google and check status code" parameterizedStepValue:"Go to google and check status code"}}
+27-07-2024 22:04:51.251 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:19:42.181 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:19:54.907 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:20:11.295 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:20:43.843 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+27-07-2024 22:20:43.843 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+27-07-2024 22:20:45.561 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"A"}
+27-07-2024 22:20:45.561 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"A" parameterizedStepValue:"A"}}
+27-07-2024 22:20:45.564 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:20:45.564 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to google and check status code" parameterizedStepValue:"Go to google and check status code"}}
+27-07-2024 22:20:45.564 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:20:45.564 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:20:46.032 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Au"}
+27-07-2024 22:20:46.032 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Au" parameterizedStepValue:"Au"}}
+27-07-2024 22:20:46.174 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Aut"}
+27-07-2024 22:20:46.174 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Aut" parameterizedStepValue:"Aut"}}
+27-07-2024 22:20:46.303 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Auth"}
+27-07-2024 22:20:46.303 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Auth" parameterizedStepValue:"Auth"}}
+27-07-2024 22:20:47.915 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:22:32.132 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:23:18.270 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"C"}
+27-07-2024 22:23:18.270 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"C" parameterizedStepValue:"C"}}
+27-07-2024 22:23:18.280 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:23:18.280 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Auth" parameterizedStepValue:"Auth"}}
+27-07-2024 22:23:18.280 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:23:18.280 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:23:18.627 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Cr"}
+27-07-2024 22:23:18.627 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Cr" parameterizedStepValue:"Cr"}}
+27-07-2024 22:23:18.684 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Cre"}
+27-07-2024 22:23:18.684 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Cre" parameterizedStepValue:"Cre"}}
+27-07-2024 22:23:18.784 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Crea"}
+27-07-2024 22:23:18.784 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Crea" parameterizedStepValue:"Crea"}}
+27-07-2024 22:23:19.026 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Creat"}
+27-07-2024 22:23:19.026 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Creat" parameterizedStepValue:"Creat"}}
+27-07-2024 22:23:19.125 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create"}
+27-07-2024 22:23:19.125 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create" parameterizedStepValue:"Create"}}
+27-07-2024 22:23:19.405 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a"}
+27-07-2024 22:23:19.405 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a" parameterizedStepValue:"Create a"}}
+27-07-2024 22:23:19.408 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:23:19.408 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Auth" parameterizedStepValue:"Auth"}}
+27-07-2024 22:23:19.408 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:23:19.408 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:23:19.408 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:23:19.408 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Auth" parameterizedStepValue:"Auth"}}
+27-07-2024 22:23:19.409 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:23:19.409 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:23:20.056 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a n"}
+27-07-2024 22:23:20.056 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a n" parameterizedStepValue:"Create a n"}}
+27-07-2024 22:23:20.062 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:23:20.062 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Auth" parameterizedStepValue:"Auth"}}
+27-07-2024 22:23:20.062 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:23:20.062 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:23:20.063 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:23:20.063 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Auth" parameterizedStepValue:"Auth"}}
+27-07-2024 22:23:20.063 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:23:20.063 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:23:20.294 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a ne"}
+27-07-2024 22:23:20.294 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a ne" parameterizedStepValue:"Create a ne"}}
+27-07-2024 22:23:20.387 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new"}
+27-07-2024 22:23:20.387 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new" parameterizedStepValue:"Create a new"}}
+27-07-2024 22:23:21.435 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new a"}
+27-07-2024 22:23:21.435 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new a" parameterizedStepValue:"Create a new a"}}
+27-07-2024 22:23:21.441 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:23:21.442 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Auth" parameterizedStepValue:"Auth"}}
+27-07-2024 22:23:21.442 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:23:21.442 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:23:21.442 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:23:21.442 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Auth" parameterizedStepValue:"Auth"}}
+27-07-2024 22:23:21.442 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:23:21.442 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:23:21.648 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new au"}
+27-07-2024 22:23:21.648 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new au" parameterizedStepValue:"Create a new au"}}
+27-07-2024 22:23:21.832 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new aut"}
+27-07-2024 22:23:21.832 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new aut" parameterizedStepValue:"Create a new aut"}}
+27-07-2024 22:23:21.995 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth"}
+27-07-2024 22:23:21.995 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"}}
+27-07-2024 22:23:23.232 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:41:41.751 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:41:42.934 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+27-07-2024 22:41:42.934 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+27-07-2024 22:41:45.662 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"G"}
+27-07-2024 22:41:45.662 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"G" parameterizedStepValue:"G"}}
+27-07-2024 22:41:45.664 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:41:45.665 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"}}
+27-07-2024 22:41:45.665 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:41:45.665 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:41:45.665 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:41:45.665 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"}}
+27-07-2024 22:41:45.665 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:41:45.665 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:41:45.996 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Ge"}
+27-07-2024 22:41:45.996 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Ge" parameterizedStepValue:"Ge"}}
+27-07-2024 22:41:46.165 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get"}
+27-07-2024 22:41:46.165 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get" parameterizedStepValue:"Get"}}
+27-07-2024 22:41:46.705 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a"}
+27-07-2024 22:41:46.705 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a" parameterizedStepValue:"Get a"}}
+27-07-2024 22:41:46.708 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:41:46.708 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"}}
+27-07-2024 22:41:46.708 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:41:46.708 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:41:46.708 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:41:46.708 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"}}
+27-07-2024 22:41:46.708 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:41:46.708 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:41:47.686 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a b"}
+27-07-2024 22:41:47.686 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a b" parameterizedStepValue:"Get a b"}}
+27-07-2024 22:41:47.693 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:41:47.693 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"}}
+27-07-2024 22:41:47.693 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:41:47.693 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:41:47.694 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:41:47.694 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"}}
+27-07-2024 22:41:47.694 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:41:47.694 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:41:47.794 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a bo"}
+27-07-2024 22:41:47.795 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a bo" parameterizedStepValue:"Get a bo"}}
+27-07-2024 22:41:48.432 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a boo"}
+27-07-2024 22:41:48.432 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a boo" parameterizedStepValue:"Get a boo"}}
+27-07-2024 22:41:48.669 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a book"}
+27-07-2024 22:41:48.669 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a book" parameterizedStepValue:"Get a book"}}
+27-07-2024 22:41:49.065 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a booki"}
+27-07-2024 22:41:49.065 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a booki" parameterizedStepValue:"Get a booki"}}
+27-07-2024 22:41:49.407 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a bookin"}
+27-07-2024 22:41:49.407 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a bookin" parameterizedStepValue:"Get a bookin"}}
+27-07-2024 22:41:49.533 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a booking"}
+27-07-2024 22:41:49.533 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a booking" parameterizedStepValue:"Get a booking"}}
+27-07-2024 22:41:51.978 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:43:05.876 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:43:26.960 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a bookingi"}
+27-07-2024 22:43:26.960 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a bookingi" parameterizedStepValue:"Get a bookingi"}}
+27-07-2024 22:43:26.966 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:43:26.966 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking" parameterizedStepValue:"Get a booking"}}
+27-07-2024 22:43:26.967 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:43:26.967 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:43:26.967 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:43:26.967 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking" parameterizedStepValue:"Get a booking"}}
+27-07-2024 22:43:26.967 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:43:26.967 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:43:27.035 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a bookingid"}
+27-07-2024 22:43:27.035 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a bookingid" parameterizedStepValue:"Get a bookingid"}}
+27-07-2024 22:43:27.229 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a bookingids"}
+27-07-2024 22:43:27.229 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a bookingids" parameterizedStepValue:"Get a bookingids"}}
+27-07-2024 22:43:29.338 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a booking i"}
+27-07-2024 22:43:29.338 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a booking i" parameterizedStepValue:"Get a booking i"}}
+27-07-2024 22:43:29.340 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:43:29.340 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking" parameterizedStepValue:"Get a booking"}}
+27-07-2024 22:43:29.340 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:43:29.340 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:43:29.341 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:43:29.341 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking" parameterizedStepValue:"Get a booking"}}
+27-07-2024 22:43:29.341 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:43:29.341 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:43:29.459 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a booking id"}
+27-07-2024 22:43:29.460 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a booking id" parameterizedStepValue:"Get a booking id"}}
+27-07-2024 22:43:30.193 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get a booking ids"}
+27-07-2024 22:43:30.193 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"}}
+27-07-2024 22:44:11.811 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get "}
+27-07-2024 22:44:11.811 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get" parameterizedStepValue:"Get"}}
+27-07-2024 22:44:13.637 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get booking "}
+27-07-2024 22:44:13.637 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get booking" parameterizedStepValue:"Get booking"}}
+27-07-2024 22:44:14.243 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get booking ids"}
+27-07-2024 22:44:14.243 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get booking ids" parameterizedStepValue:"Get booking ids"}}
+27-07-2024 22:46:48.208 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:49:36.924 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:49:37.100 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:49:58.374 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth a"}
+27-07-2024 22:49:58.374 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth a" parameterizedStepValue:"Create a new auth a"}}
+27-07-2024 22:49:58.377 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:49:58.377 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"}}
+27-07-2024 22:49:58.377 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:49:58.377 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:49:58.378 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:49:58.378 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"} allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"}}
+27-07-2024 22:49:58.378 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:49:58.378 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:49:58.525 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth an"}
+27-07-2024 22:49:58.525 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth an" parameterizedStepValue:"Create a new auth an"}}
+27-07-2024 22:49:58.635 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and"}
+27-07-2024 22:49:58.635 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and" parameterizedStepValue:"Create a new auth and"}}
+27-07-2024 22:50:00.872 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 22:50:02.864 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:50:02.864 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"}}
+27-07-2024 22:50:02.865 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:50:02.865 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:50:02.865 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:50:02.865 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"}}
+27-07-2024 22:50:02.865 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:50:02.865 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:50:03.665 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and c"}
+27-07-2024 22:50:03.665 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and c" parameterizedStepValue:"Create a new auth and c"}}
+27-07-2024 22:50:03.666 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:50:03.667 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"}}
+27-07-2024 22:50:03.667 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:50:03.667 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:50:03.667 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:50:03.667 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"}}
+27-07-2024 22:50:03.667 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:50:03.667 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:50:03.882 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and ch"}
+27-07-2024 22:50:03.882 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and ch" parameterizedStepValue:"Create a new auth and ch"}}
+27-07-2024 22:50:03.958 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and che"}
+27-07-2024 22:50:03.958 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and che" parameterizedStepValue:"Create a new auth and che"}}
+27-07-2024 22:50:04.041 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and chec"}
+27-07-2024 22:50:04.041 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and chec" parameterizedStepValue:"Create a new auth and chec"}}
+27-07-2024 22:50:04.156 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check"}
+27-07-2024 22:50:04.156 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check" parameterizedStepValue:"Create a new auth and check"}}
+27-07-2024 22:50:05.089 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check s"}
+27-07-2024 22:50:05.089 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check s" parameterizedStepValue:"Create a new auth and check s"}}
+27-07-2024 22:50:05.094 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:50:05.094 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"}}
+27-07-2024 22:50:05.095 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:50:05.095 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:50:05.095 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:50:05.095 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"}}
+27-07-2024 22:50:05.095 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:50:05.095 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:50:05.395 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check st"}
+27-07-2024 22:50:05.395 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check st" parameterizedStepValue:"Create a new auth and check st"}}
+27-07-2024 22:50:05.471 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check sta"}
+27-07-2024 22:50:05.471 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check sta" parameterizedStepValue:"Create a new auth and check sta"}}
+27-07-2024 22:50:05.580 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check stat"}
+27-07-2024 22:50:05.580 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check stat" parameterizedStepValue:"Create a new auth and check stat"}}
+27-07-2024 22:50:05.706 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check statu"}
+27-07-2024 22:50:05.706 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check statu" parameterizedStepValue:"Create a new auth and check statu"}}
+27-07-2024 22:50:05.848 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check status"}
+27-07-2024 22:50:05.848 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check status" parameterizedStepValue:"Create a new auth and check status"}}
+27-07-2024 22:50:06.377 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check status v"}
+27-07-2024 22:50:06.377 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check status v" parameterizedStepValue:"Create a new auth and check status v"}}
+27-07-2024 22:50:06.381 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:50:06.381 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"}}
+27-07-2024 22:50:06.381 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:50:06.381 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:50:06.382 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:50:06.382 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"}}
+27-07-2024 22:50:06.382 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:50:06.382 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:50:06.447 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check status vo"}
+27-07-2024 22:50:06.447 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check status vo" parameterizedStepValue:"Create a new auth and check status vo"}}
+27-07-2024 22:50:06.638 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check status vod"}
+27-07-2024 22:50:06.638 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check status vod" parameterizedStepValue:"Create a new auth and check status vod"}}
+27-07-2024 22:50:06.731 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check status vode"}
+27-07-2024 22:50:06.732 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check status vode" parameterizedStepValue:"Create a new auth and check status vode"}}
+27-07-2024 22:50:07.710 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check status c"}
+27-07-2024 22:50:07.710 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check status c" parameterizedStepValue:"Create a new auth and check status c"}}
+27-07-2024 22:50:07.713 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:50:07.713 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"}}
+27-07-2024 22:50:07.713 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:50:07.713 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:50:07.713 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:50:07.713 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"}}
+27-07-2024 22:50:07.713 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:50:07.713 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:50:07.794 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check status co"}
+27-07-2024 22:50:07.794 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check status co" parameterizedStepValue:"Create a new auth and check status co"}}
+27-07-2024 22:50:07.921 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check status cod"}
+27-07-2024 22:50:07.921 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check status cod" parameterizedStepValue:"Create a new auth and check status cod"}}
+27-07-2024 22:50:08.006 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create a new auth and check status code"}
+27-07-2024 22:50:08.006 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create a new auth and check status code" parameterizedStepValue:"Create a new auth and check status code"}}
+27-07-2024 22:50:18.155 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get abooking ids"}
+27-07-2024 22:50:18.155 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get abooking ids" parameterizedStepValue:"Get abooking ids"}}
+27-07-2024 22:50:19.275 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 22:50:19.275 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Get a booking ids" parameterizedStepValue:"Get a booking ids"} allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"}}
+27-07-2024 22:50:19.275 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 22:50:19.275 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 22:50:19.418 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get albooking ids"}
+27-07-2024 22:50:19.418 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get albooking ids" parameterizedStepValue:"Get albooking ids"}}
+27-07-2024 22:50:19.576 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get allbooking ids"}
+27-07-2024 22:50:19.576 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get allbooking ids" parameterizedStepValue:"Get allbooking ids"}}
+27-07-2024 22:50:19.690 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get all booking ids"}
+27-07-2024 22:50:19.690 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"}}
+27-07-2024 22:50:39.839 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 23:03:39.664 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get booking id"}
+27-07-2024 23:03:39.665 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"}}
+27-07-2024 23:11:07.454 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 23:11:07.606 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 23:11:17.431 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get booking i"}
+27-07-2024 23:11:17.432 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get booking i" parameterizedStepValue:"Get booking i"}}
+27-07-2024 23:11:18.060 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get booking"}
+27-07-2024 23:11:18.060 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get booking" parameterizedStepValue:"Get booking"}}
+27-07-2024 23:11:20.971 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get booking <,>"}
+27-07-2024 23:11:20.971 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get booking {}" parameterizedStepValue:"Get booking <,>" parameters:","}}
+27-07-2024 23:11:21.472 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get booking <i>"}
+27-07-2024 23:11:21.472 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get booking {}" parameterizedStepValue:"Get booking <i>" parameters:"i"}}
+27-07-2024 23:11:21.613 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get booking <id>"}
+27-07-2024 23:11:21.613 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get booking {}" parameterizedStepValue:"Get booking <id>" parameters:"id"}}
+27-07-2024 23:13:21.533 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 23:15:38.884 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get booking \"id\""}
+27-07-2024 23:15:38.884 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get booking {}" parameterizedStepValue:"Get booking <id>" parameters:"id"}}
+27-07-2024 23:15:59.119 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get booking id>"}
+27-07-2024 23:15:59.119 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get booking id>" parameterizedStepValue:"Get booking id>"}}
+27-07-2024 23:16:09.479 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get booking İ"}
+27-07-2024 23:16:09.479 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get booking İ" parameterizedStepValue:"Get booking İ"}}
+27-07-2024 23:16:09.485 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 23:16:09.485 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking {}" parameterizedStepValue:"Get booking <id>" parameters:"id"}}
+27-07-2024 23:16:09.486 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 23:16:09.486 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 23:16:09.486 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 23:16:09.486 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking {}" parameterizedStepValue:"Get booking <id>" parameters:"id"} allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"}}
+27-07-2024 23:16:09.486 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 23:16:09.486 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 23:16:09.599 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Get booking İD"}
+27-07-2024 23:16:09.599 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Get booking İD" parameterizedStepValue:"Get booking İD"}}
+27-07-2024 23:16:10.673 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+27-07-2024 23:16:10.673 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking {}" parameterizedStepValue:"Get booking <id>" parameters:"id"}}
+27-07-2024 23:16:10.674 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+27-07-2024 23:16:10.674 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+27-07-2024 23:16:15.745 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 23:56:05.571 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 23:56:05.905 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+27-07-2024 23:56:13.280 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:03:31.823 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:05:22.681 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:05:22.842 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:05:35.125 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:05:36.518 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:05:40.254 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2024 00:05:40.254 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2024 00:05:40.393 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:05:40.394 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"}}
+28-07-2024 00:05:40.394 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:05:40.394 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:05:43.223 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create n"}
+28-07-2024 00:05:43.224 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create n" parameterizedStepValue:"Create n"}}
+28-07-2024 00:05:43.228 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:05:43.228 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"}}
+28-07-2024 00:05:43.228 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:05:43.228 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:05:43.229 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:05:43.229 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"}}
+28-07-2024 00:05:43.229 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:05:43.229 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:05:43.395 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create ne"}
+28-07-2024 00:05:43.395 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create ne" parameterizedStepValue:"Create ne"}}
+28-07-2024 00:05:43.472 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create new"}
+28-07-2024 00:05:43.472 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create new" parameterizedStepValue:"Create new"}}
+28-07-2024 00:05:44.431 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create new b"}
+28-07-2024 00:05:44.431 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create new b" parameterizedStepValue:"Create new b"}}
+28-07-2024 00:05:44.436 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:05:44.436 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"}}
+28-07-2024 00:05:44.437 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:05:44.437 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:05:44.437 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:05:44.437 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"}}
+28-07-2024 00:05:44.437 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:05:44.437 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:05:44.544 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create new bo"}
+28-07-2024 00:05:44.544 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create new bo" parameterizedStepValue:"Create new bo"}}
+28-07-2024 00:05:44.704 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create new boo"}
+28-07-2024 00:05:44.704 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create new boo" parameterizedStepValue:"Create new boo"}}
+28-07-2024 00:05:44.885 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create new book"}
+28-07-2024 00:05:44.885 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create new book" parameterizedStepValue:"Create new book"}}
+28-07-2024 00:05:45.126 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create new booki"}
+28-07-2024 00:05:45.126 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create new booki" parameterizedStepValue:"Create new booki"}}
+28-07-2024 00:05:45.337 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create new bookin"}
+28-07-2024 00:05:45.337 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create new bookin" parameterizedStepValue:"Create new bookin"}}
+28-07-2024 00:05:45.416 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Create new booking"}
+28-07-2024 00:05:45.416 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Create new booking" parameterizedStepValue:"Create new booking"}}
+28-07-2024 00:08:30.662 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:20:14.419 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:21:41.975 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:21:43.164 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2024 00:21:43.164 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2024 00:21:44.877 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:21:44.878 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"} allSteps:{stepValue:"Create new booking" parameterizedStepValue:"Create new booking"} allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"}}
+28-07-2024 00:21:44.878 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:21:44.878 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:21:45.334 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Ch"}
+28-07-2024 00:21:45.334 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Ch" parameterizedStepValue:"Ch"}}
+28-07-2024 00:21:45.433 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Che"}
+28-07-2024 00:21:45.433 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Che" parameterizedStepValue:"Che"}}
+28-07-2024 00:21:45.573 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Chec"}
+28-07-2024 00:21:45.573 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Chec" parameterizedStepValue:"Chec"}}
+28-07-2024 00:21:45.700 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check"}
+28-07-2024 00:21:45.700 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check" parameterizedStepValue:"Check"}}
+28-07-2024 00:21:47.066 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check n"}
+28-07-2024 00:21:47.066 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check n" parameterizedStepValue:"Check n"}}
+28-07-2024 00:21:47.070 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:21:47.070 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"} allSteps:{stepValue:"Create new booking" parameterizedStepValue:"Create new booking"}}
+28-07-2024 00:21:47.071 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:21:47.071 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:21:47.071 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:21:47.071 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"} allSteps:{stepValue:"Create new booking" parameterizedStepValue:"Create new booking"}}
+28-07-2024 00:21:47.071 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:21:47.071 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:21:47.143 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check ne"}
+28-07-2024 00:21:47.143 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check ne" parameterizedStepValue:"Check ne"}}
+28-07-2024 00:21:47.211 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new"}
+28-07-2024 00:21:47.211 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new" parameterizedStepValue:"Check new"}}
+28-07-2024 00:21:47.958 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new b"}
+28-07-2024 00:21:47.958 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new b" parameterizedStepValue:"Check new b"}}
+28-07-2024 00:21:47.962 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:21:47.962 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"} allSteps:{stepValue:"Create new booking" parameterizedStepValue:"Create new booking"} allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"}}
+28-07-2024 00:21:47.962 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:21:47.962 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:21:47.962 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:21:47.962 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create new booking" parameterizedStepValue:"Create new booking"} allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"}}
+28-07-2024 00:21:47.963 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:21:47.963 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:21:48.011 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new bo"}
+28-07-2024 00:21:48.011 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new bo" parameterizedStepValue:"Check new bo"}}
+28-07-2024 00:21:48.160 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new boo"}
+28-07-2024 00:21:48.160 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new boo" parameterizedStepValue:"Check new boo"}}
+28-07-2024 00:21:48.327 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new book"}
+28-07-2024 00:21:48.327 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new book" parameterizedStepValue:"Check new book"}}
+28-07-2024 00:21:48.556 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new booki"}
+28-07-2024 00:21:48.556 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new booki" parameterizedStepValue:"Check new booki"}}
+28-07-2024 00:21:48.786 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new bookin"}
+28-07-2024 00:21:48.786 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new bookin" parameterizedStepValue:"Check new bookin"}}
+28-07-2024 00:21:48.866 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new booking"}
+28-07-2024 00:21:48.866 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new booking" parameterizedStepValue:"Check new booking"}}
+28-07-2024 00:21:51.739 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new booking i"}
+28-07-2024 00:21:51.740 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new booking i" parameterizedStepValue:"Check new booking i"}}
+28-07-2024 00:21:51.745 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:21:51.746 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"} allSteps:{stepValue:"Create new booking" parameterizedStepValue:"Create new booking"}}
+28-07-2024 00:21:51.746 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:21:51.746 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:21:51.746 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:21:51.746 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"} allSteps:{stepValue:"Create new booking" parameterizedStepValue:"Create new booking"}}
+28-07-2024 00:21:51.747 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:21:51.747 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:21:51.871 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new booking id"}
+28-07-2024 00:21:51.871 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new booking id" parameterizedStepValue:"Check new booking id"}}
+28-07-2024 00:21:52.415 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new booking id e"}
+28-07-2024 00:21:52.415 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new booking id e" parameterizedStepValue:"Check new booking id e"}}
+28-07-2024 00:21:52.419 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:21:52.419 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"} allSteps:{stepValue:"Create new booking" parameterizedStepValue:"Create new booking"}}
+28-07-2024 00:21:52.419 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:21:52.419 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:21:52.420 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:21:52.420 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"} allSteps:{stepValue:"Create new booking" parameterizedStepValue:"Create new booking"}}
+28-07-2024 00:21:52.420 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:21:52.420 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:21:52.900 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new booking id ex"}
+28-07-2024 00:21:52.900 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new booking id ex" parameterizedStepValue:"Check new booking id ex"}}
+28-07-2024 00:21:53.039 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new booking id exi"}
+28-07-2024 00:21:53.039 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new booking id exi" parameterizedStepValue:"Check new booking id exi"}}
+28-07-2024 00:21:54.121 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new booking id exis"}
+28-07-2024 00:21:54.122 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new booking id exis" parameterizedStepValue:"Check new booking id exis"}}
+28-07-2024 00:21:54.463 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new booking id exist"}
+28-07-2024 00:21:54.463 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new booking id exist" parameterizedStepValue:"Check new booking id exist"}}
+28-07-2024 00:21:56.958 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new booking id exs"}
+28-07-2024 00:21:56.959 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new booking id exs" parameterizedStepValue:"Check new booking id exs"}}
+28-07-2024 00:21:56.960 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:21:56.960 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"} allSteps:{stepValue:"Create new booking" parameterizedStepValue:"Create new booking"}}
+28-07-2024 00:21:56.961 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:21:56.961 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:21:56.961 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:21:56.961 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"} allSteps:{stepValue:"Create new booking" parameterizedStepValue:"Create new booking"} allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"}}
+28-07-2024 00:21:56.961 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:21:56.961 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:21:57.063 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new booking id exsi"}
+28-07-2024 00:21:57.063 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new booking id exsi" parameterizedStepValue:"Check new booking id exsi"}}
+28-07-2024 00:21:57.411 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new booking id exsis"}
+28-07-2024 00:21:57.411 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new booking id exsis" parameterizedStepValue:"Check new booking id exsis"}}
+28-07-2024 00:21:57.881 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check new booking id exsist"}
+28-07-2024 00:21:57.881 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check new booking id exsist" parameterizedStepValue:"Check new booking id exsist"}}
+28-07-2024 00:23:01.212 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2024 00:23:01.212 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Create a new auth" parameterizedStepValue:"Create a new auth"} allSteps:{stepValue:"Get all booking ids" parameterizedStepValue:"Get all booking ids"} allSteps:{stepValue:"Get booking id" parameterizedStepValue:"Get booking id"} allSteps:{stepValue:"Create new booking" parameterizedStepValue:"Create new booking"}}
+28-07-2024 00:23:01.212 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2024 00:23:01.212 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2024 00:27:43.173 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:33:19.998 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:33:20.166 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:33:21.409 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:33:28.417 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:33:31.325 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
+28-07-2024 00:33:43.732 [Gauge] [DEBUG] Spec file added / modified: /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/specs/test.spec
