@@ -6730,3 +6730,772 @@ Total time taken: 2.27s
 28-07-2024 00:34:13.099 [Gauge] [INFO] Scenarios:	5 executed	5 passed	0 failed	0 skipped
 28-07-2024 00:34:13.099 [Gauge] [INFO] 
 Total time taken: 6.255s
+28-07-2024 01:02:30.078 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/.gauge/screenshots
+28-07-2024 01:02:30.080 [Gauge] [DEBUG] Plugin java is already installed.
+28-07-2024 01:02:30.080 [Gauge] [DEBUG] Plugin html-report is already installed.
+28-07-2024 01:02:30.080 [Gauge] [DEBUG] Plugin xml-report is already installed.
+28-07-2024 01:02:30.080 [Gauge] [DEBUG] Parsing started.
+28-07-2024 01:02:30.081 [Gauge] [DEBUG] Started concepts parsing.
+28-07-2024 01:02:30.082 [Gauge] [DEBUG] 0 concepts parsing completed.
+28-07-2024 01:02:30.082 [Gauge] [DEBUG] Started specifications parsing.
+28-07-2024 01:02:30.083 [Gauge] [DEBUG] 1 specifications parsing completed.
+28-07-2024 01:02:30.083 [Gauge] [DEBUG] Parsing completed.
+28-07-2024 01:02:30.095 [java] [DEBUG] ***** Printing Properties/Env Values *****
+28-07-2024 01:02:30.095 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/go/bin:/Users/alierendasdemir/.gauge/plugins/screenshot/0.3.0
+28-07-2024 01:02:30.095 [java] [DEBUG] JAVA_HOME: 
+28-07-2024 01:02:30.095 [java] [DEBUG] gauge_project_root: 
+28-07-2024 01:02:30.095 [java] [DEBUG] gauge_parallel_streams_count: 
+28-07-2024 01:02:30.095 [java] [DEBUG] gauge_reports_dir: reports
+28-07-2024 01:02:30.095 [java] [DEBUG] overwrite_reports: true
+28-07-2024 01:02:30.095 [java] [DEBUG] logs_directory: logs
+28-07-2024 01:02:30.095 [java] [DEBUG] enable_multithreading: false
+28-07-2024 01:02:30.095 [java] [DEBUG] gauge_specs_dir: specs
+28-07-2024 01:02:30.095 [java] [DEBUG] csv_delimiter: ,
+28-07-2024 01:02:30.095 [java] [DEBUG] gauge_java_home: PATH_TO_JAVA_HOME
+28-07-2024 01:02:30.095 [java] [DEBUG] gauge_custom_build_path: 
+28-07-2024 01:02:30.095 [java] [DEBUG] gauge_additional_libs: 
+28-07-2024 01:02:30.095 [java] [DEBUG] gauge_jvm_args: 
+28-07-2024 01:02:30.095 [java] [DEBUG] gauge_custom_compile_dir: 
+28-07-2024 01:02:30.095 [java] [DEBUG] gauge_clear_state_level: 
+28-07-2024 01:02:30.095 [java] [DEBUG] ***** END *****
+28-07-2024 01:02:30.690 [Gauge] [DEBUG] Checking updates...
+28-07-2024 01:02:30.691 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:02:30.885 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:02:30.931 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:02:30.979 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:02:31.025 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:02:31.070 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:02:31.958 [java] [DEBUG] classpath set to /Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.base:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.compiler:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.datatransfer:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.desktop:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.instrument:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.logging:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.management:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.management.rmi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.naming:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.net.http:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.prefs:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.rmi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.scripting:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.se:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.security.jgss:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.security.sasl:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.smartcardio:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.sql:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.sql.rowset:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.transaction.xa:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.xml:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.xml.crypto:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.accessibility:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.attach:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.charsets:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.compiler:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.crypto.cryptoki:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.crypto.ec:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.dynalink:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.editpad:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.hotspot.agent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.httpserver:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.incubator.concurrent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.incubator.vector:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.ed:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.jvmstat:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.le:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.opt:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.vm.ci:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.vm.compiler:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.vm.compiler.management:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jartool:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.javadoc:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jcmd:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jconsole:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jdeps:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jdi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jdwp.agent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jfr:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jlink:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jpackage:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jshell:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jsobject:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jstatd:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.localedata:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.management:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.management.agent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.management.jfr:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.naming.dns:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.naming.rmi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.net:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.nio.mapmode:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.random:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.sctp:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.security.auth:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.security.jgss:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.unsupported:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.unsupported.desktop:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.xml.dom:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.zipfs:/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/target/test-classes:/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/target/classes:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/gauge-java/0.11.0/gauge-java-0.11.0.jar:/Users/alierendasdemir/.m2/repository/org/assertj/assertj-core/3.26.0/assertj-core-3.26.0.jar:/Users/alierendasdemir/.m2/repository/net/bytebuddy/byte-buddy/1.14.16/byte-buddy-1.14.16.jar:/Users/alierendasdemir/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/alierendasdemir/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/alierendasdemir/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/alierendasdemir/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/alierendasdemir/.m2/repository/com/github/javaparser/javaparser-core/3.26.0/javaparser-core-3.26.0.jar:/Users/alierendasdemir/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/alierendasdemir/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/alierendasdemir/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/alierendasdemir/.m2/repository/com/google/protobuf/protobuf-java/4.27.1/protobuf-java-4.27.1.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/alierendasdemir/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/alierendasdemir/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-api/1.64.0/grpc-api-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-netty-shaded/1.64.0/grpc-netty-shaded-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-util/1.64.0/grpc-util-1.64.0.jar:/Users/alierendasdemir/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-core/1.64.0/grpc-core-1.64.0.jar:/Users/alierendasdemir/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-context/1.64.0/grpc-context-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-protobuf/1.64.0/grpc-protobuf-1.64.0.jar:/Users/alierendasdemir/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.29.0/proto-google-common-protos-2.29.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-protobuf-lite/1.64.0/grpc-protobuf-lite-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-stub/1.64.0/grpc-stub-1.64.0.jar:/Users/alierendasdemir/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/maven/gauge-archetype-java/1.6.0/gauge-archetype-java-1.6.0.jar:/Users/alierendasdemir/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/alierendasdemir/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/alierendasdemir/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/alierendasdemir/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/alierendasdemir/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/alierendasdemir/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/alierendasdemir/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/alierendasdemir/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar
+28-07-2024 01:02:31.958 [java] [DEBUG] failed to get full path for java. lstat PATH_TO_JAVA_HOME: no such file or directory
+28-07-2024 01:02:31.958 [java] [DEBUG] found java executable in java
+28-07-2024 01:02:31.959 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+28-07-2024 01:02:31.959 [java] [DEBUG] stdout/stderr is logged to logs/5710-java.out
+28-07-2024 01:02:32.017 [java] [DEBUG] multithreading is set to false
+28-07-2024 01:02:32.158 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+28-07-2024 01:02:32.174 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+28-07-2024 01:02:32.174 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+28-07-2024 01:02:32.174 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+28-07-2024 01:02:32.344 [java] [DEBUG] gauge-java took 324milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+28-07-2024 01:02:32.344 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 324
+28-07-2024 01:02:32.344 [java] [DEBUG] starting gRPC server...
+28-07-2024 01:02:32.396 [java] [DEBUG] started gRPC server on port 54203
+28-07-2024 01:02:32.397 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54203
+28-07-2024 01:02:32.397 [Gauge] [DEBUG] Successfully made the connection with runner with port: 54203
+28-07-2024 01:02:32.397 [Gauge] [DEBUG] Validation started.
+28-07-2024 01:02:33.034 [java] [DEBUG] Scanning packages for steps
+28-07-2024 01:02:33.036 [java] [DEBUG] Comparing 'StepImplementation.CreateANewAuth' and 'StepImplementation.CreateANewAuth'
+28-07-2024 01:02:33.037 [java] [DEBUG] Found Create a new auth in current project scope.
+28-07-2024 01:02:33.037 [java] [DEBUG] Comparing 'StepImplementation.CheckNewBookingIdExist' and 'StepImplementation.CheckNewBookingIdExist'
+28-07-2024 01:02:33.037 [java] [DEBUG] Found Check new booking id exist in current project scope.
+28-07-2024 01:02:33.037 [java] [DEBUG] Comparing 'StepImplementation.CreateNewBooking' and 'StepImplementation.CreateNewBooking'
+28-07-2024 01:02:33.037 [java] [DEBUG] Found Create new booking in current project scope.
+28-07-2024 01:02:33.037 [java] [DEBUG] Comparing 'StepImplementation.GetBookingId' and 'StepImplementation.GetBookingId'
+28-07-2024 01:02:33.037 [java] [DEBUG] Found Get booking id in current project scope.
+28-07-2024 01:02:33.037 [java] [DEBUG] Comparing 'StepImplementation.GetBookingIds' and 'StepImplementation.GetBookingIds'
+28-07-2024 01:02:33.037 [java] [DEBUG] Found Get all booking ids in current project scope.
+28-07-2024 01:02:33.037 [java] [DEBUG] Scanning packages for hooks
+28-07-2024 01:02:33.038 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+28-07-2024 01:02:33.038 [java] [DEBUG] 	Create a new auth : public void CreateANewAuth()
+28-07-2024 01:02:33.038 [java] [DEBUG] 	Create new booking : public String CreateNewBooking()
+28-07-2024 01:02:33.038 [java] [DEBUG] 	Get booking id : public void GetBookingId()
+28-07-2024 01:02:33.038 [java] [DEBUG] 	Get all booking ids : public void GetBookingIds()
+28-07-2024 01:02:33.038 [java] [DEBUG] 	Check new booking id exist : public void CheckNewBookingIdExist()
+28-07-2024 01:02:33.341 [Gauge] [DEBUG] Validation completed.
+28-07-2024 01:02:33.341 [Gauge] [DEBUG] Run started
+28-07-2024 01:02:33.341 [Gauge] [DEBUG] Starting Html Report plugin
+28-07-2024 01:02:33.371 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+28-07-2024 01:02:33.371 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54206
+28-07-2024 01:02:33.371 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54206
+28-07-2024 01:02:33.371 [Gauge] [DEBUG] Starting Xml Report plugin
+28-07-2024 01:02:33.398 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54208
+28-07-2024 01:02:33.398 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54208
+28-07-2024 01:02:33.398 [Gauge] [DEBUG] Initialising suite data store.
+28-07-2024 01:02:33.428 [java] [DEBUG] Executing 'Create a new auth' using 'class StepImplementation.CreateANewAuth
+28-07-2024 01:02:33.429 [java] [INFO] /app/configService.properties (No such file or directory)
+28-07-2024 01:02:33.881 [html-report] [DEBUG] Transformed SuiteResult to report structure
+28-07-2024 01:02:33.885 [html-report] [INFO] Successfully generated html-report to => /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/reports/html-report/index.html
+28-07-2024 01:02:33.885 [html-report] [DEBUG] Done generating HTML report using theme from /Users/alierendasdemir/.gauge/plugins/html-report/4.3.1/themes/default
+28-07-2024 01:02:33.886 [xml-report] [INFO] Successfully generated xml-report to => /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/reports/xml-report
+28-07-2024 01:02:33.886 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+28-07-2024 01:02:33.886 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+28-07-2024 01:02:33.888 [java] [DEBUG] Killing Java runner...
+28-07-2024 01:02:33.888 [java] [DEBUG] Stopping execution pool...
+28-07-2024 01:02:33.888 [java] [DEBUG] Shutting down grpc server...
+28-07-2024 01:02:33.896 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+28-07-2024 01:02:33.896 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+28-07-2024 01:02:33.896 [Gauge] [INFO] 
+Total time taken: 539ms
+28-07-2024 01:02:33.896 [java] [DEBUG] Runner killed gracefully.
+28-07-2024 01:06:24.076 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/.gauge/screenshots
+28-07-2024 01:06:24.078 [Gauge] [DEBUG] Plugin java is already installed.
+28-07-2024 01:06:24.078 [Gauge] [DEBUG] Plugin html-report is already installed.
+28-07-2024 01:06:24.078 [Gauge] [DEBUG] Plugin xml-report is already installed.
+28-07-2024 01:06:24.078 [Gauge] [DEBUG] Parsing started.
+28-07-2024 01:06:24.078 [Gauge] [DEBUG] Started concepts parsing.
+28-07-2024 01:06:24.080 [Gauge] [DEBUG] 0 concepts parsing completed.
+28-07-2024 01:06:24.080 [Gauge] [DEBUG] Started specifications parsing.
+28-07-2024 01:06:24.081 [Gauge] [DEBUG] 1 specifications parsing completed.
+28-07-2024 01:06:24.081 [Gauge] [DEBUG] Parsing completed.
+28-07-2024 01:06:24.093 [java] [DEBUG] ***** Printing Properties/Env Values *****
+28-07-2024 01:06:24.093 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/go/bin:/Users/alierendasdemir/.gauge/plugins/screenshot/0.3.0
+28-07-2024 01:06:24.093 [java] [DEBUG] JAVA_HOME: 
+28-07-2024 01:06:24.093 [java] [DEBUG] gauge_project_root: 
+28-07-2024 01:06:24.093 [java] [DEBUG] gauge_parallel_streams_count: 
+28-07-2024 01:06:24.093 [java] [DEBUG] gauge_reports_dir: reports
+28-07-2024 01:06:24.093 [java] [DEBUG] overwrite_reports: true
+28-07-2024 01:06:24.093 [java] [DEBUG] logs_directory: logs
+28-07-2024 01:06:24.093 [java] [DEBUG] enable_multithreading: false
+28-07-2024 01:06:24.093 [java] [DEBUG] gauge_specs_dir: specs
+28-07-2024 01:06:24.093 [java] [DEBUG] csv_delimiter: ,
+28-07-2024 01:06:24.093 [java] [DEBUG] gauge_java_home: PATH_TO_JAVA_HOME
+28-07-2024 01:06:24.093 [java] [DEBUG] gauge_custom_build_path: 
+28-07-2024 01:06:24.093 [java] [DEBUG] gauge_additional_libs: 
+28-07-2024 01:06:24.093 [java] [DEBUG] gauge_jvm_args: 
+28-07-2024 01:06:24.093 [java] [DEBUG] gauge_custom_compile_dir: 
+28-07-2024 01:06:24.093 [java] [DEBUG] gauge_clear_state_level: 
+28-07-2024 01:06:24.093 [java] [DEBUG] ***** END *****
+28-07-2024 01:06:24.576 [Gauge] [DEBUG] Checking updates...
+28-07-2024 01:06:24.577 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:06:25.274 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:06:25.320 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:06:25.368 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:06:25.414 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:06:25.460 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:06:25.810 [java] [DEBUG] classpath set to /Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.base:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.compiler:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.datatransfer:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.desktop:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.instrument:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.logging:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.management:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.management.rmi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.naming:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.net.http:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.prefs:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.rmi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.scripting:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.se:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.security.jgss:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.security.sasl:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.smartcardio:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.sql:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.sql.rowset:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.transaction.xa:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.xml:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.xml.crypto:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.accessibility:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.attach:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.charsets:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.compiler:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.crypto.cryptoki:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.crypto.ec:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.dynalink:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.editpad:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.hotspot.agent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.httpserver:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.incubator.concurrent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.incubator.vector:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.ed:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.jvmstat:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.le:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.opt:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.vm.ci:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.vm.compiler:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.vm.compiler.management:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jartool:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.javadoc:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jcmd:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jconsole:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jdeps:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jdi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jdwp.agent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jfr:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jlink:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jpackage:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jshell:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jsobject:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jstatd:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.localedata:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.management:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.management.agent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.management.jfr:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.naming.dns:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.naming.rmi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.net:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.nio.mapmode:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.random:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.sctp:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.security.auth:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.security.jgss:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.unsupported:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.unsupported.desktop:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.xml.dom:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.zipfs:/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/target/test-classes:/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/target/classes:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/gauge-java/0.11.0/gauge-java-0.11.0.jar:/Users/alierendasdemir/.m2/repository/org/assertj/assertj-core/3.26.0/assertj-core-3.26.0.jar:/Users/alierendasdemir/.m2/repository/net/bytebuddy/byte-buddy/1.14.16/byte-buddy-1.14.16.jar:/Users/alierendasdemir/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/alierendasdemir/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/alierendasdemir/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/alierendasdemir/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/alierendasdemir/.m2/repository/com/github/javaparser/javaparser-core/3.26.0/javaparser-core-3.26.0.jar:/Users/alierendasdemir/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/alierendasdemir/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/alierendasdemir/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/alierendasdemir/.m2/repository/com/google/protobuf/protobuf-java/4.27.1/protobuf-java-4.27.1.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/alierendasdemir/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/alierendasdemir/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-api/1.64.0/grpc-api-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-netty-shaded/1.64.0/grpc-netty-shaded-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-util/1.64.0/grpc-util-1.64.0.jar:/Users/alierendasdemir/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-core/1.64.0/grpc-core-1.64.0.jar:/Users/alierendasdemir/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-context/1.64.0/grpc-context-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-protobuf/1.64.0/grpc-protobuf-1.64.0.jar:/Users/alierendasdemir/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.29.0/proto-google-common-protos-2.29.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-protobuf-lite/1.64.0/grpc-protobuf-lite-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-stub/1.64.0/grpc-stub-1.64.0.jar:/Users/alierendasdemir/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/maven/gauge-archetype-java/1.6.0/gauge-archetype-java-1.6.0.jar:/Users/alierendasdemir/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/alierendasdemir/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/alierendasdemir/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/alierendasdemir/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/alierendasdemir/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/alierendasdemir/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/alierendasdemir/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/alierendasdemir/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar
+28-07-2024 01:06:25.810 [java] [DEBUG] failed to get full path for java. lstat PATH_TO_JAVA_HOME: no such file or directory
+28-07-2024 01:06:25.810 [java] [DEBUG] found java executable in java
+28-07-2024 01:06:25.811 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+28-07-2024 01:06:25.811 [java] [DEBUG] stdout/stderr is logged to logs/5837-java.out
+28-07-2024 01:06:25.862 [java] [DEBUG] multithreading is set to false
+28-07-2024 01:06:26.005 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+28-07-2024 01:06:26.021 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+28-07-2024 01:06:26.021 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+28-07-2024 01:06:26.022 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+28-07-2024 01:06:26.213 [java] [DEBUG] gauge-java took 346milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+28-07-2024 01:06:26.213 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 346
+28-07-2024 01:06:26.213 [java] [DEBUG] starting gRPC server...
+28-07-2024 01:06:26.282 [java] [DEBUG] started gRPC server on port 54249
+28-07-2024 01:06:26.284 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54249
+28-07-2024 01:06:26.284 [Gauge] [DEBUG] Successfully made the connection with runner with port: 54249
+28-07-2024 01:06:26.284 [Gauge] [DEBUG] Validation started.
+28-07-2024 01:06:26.718 [java] [DEBUG] Scanning packages for steps
+28-07-2024 01:06:26.722 [java] [DEBUG] Comparing 'StepImplementation.CreateANewAuth' and 'StepImplementation.CreateANewAuth'
+28-07-2024 01:06:26.722 [java] [DEBUG] Found Create a new auth in current project scope.
+28-07-2024 01:06:26.722 [java] [DEBUG] Comparing 'StepImplementation.CheckNewBookingIdExist' and 'StepImplementation.CheckNewBookingIdExist'
+28-07-2024 01:06:26.722 [java] [DEBUG] Found Check new booking id exist in current project scope.
+28-07-2024 01:06:26.722 [java] [DEBUG] Comparing 'StepImplementation.CreateNewBooking' and 'StepImplementation.CreateNewBooking'
+28-07-2024 01:06:26.722 [java] [DEBUG] Found Create new booking in current project scope.
+28-07-2024 01:06:26.722 [java] [DEBUG] Comparing 'StepImplementation.GetBookingId' and 'StepImplementation.GetBookingId'
+28-07-2024 01:06:26.723 [java] [DEBUG] Found Get booking id in current project scope.
+28-07-2024 01:06:26.723 [java] [DEBUG] Comparing 'StepImplementation.GetBookingIds' and 'StepImplementation.GetBookingIds'
+28-07-2024 01:06:26.723 [java] [DEBUG] Found Get all booking ids in current project scope.
+28-07-2024 01:06:26.723 [java] [DEBUG] Scanning packages for hooks
+28-07-2024 01:06:26.724 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+28-07-2024 01:06:26.724 [java] [DEBUG] 	Create a new auth : public void CreateANewAuth()
+28-07-2024 01:06:26.724 [java] [DEBUG] 	Create new booking : public String CreateNewBooking()
+28-07-2024 01:06:26.724 [java] [DEBUG] 	Get booking id : public void GetBookingId()
+28-07-2024 01:06:26.724 [java] [DEBUG] 	Get all booking ids : public void GetBookingIds()
+28-07-2024 01:06:26.724 [java] [DEBUG] 	Check new booking id exist : public void CheckNewBookingIdExist()
+28-07-2024 01:06:27.048 [Gauge] [DEBUG] Validation completed.
+28-07-2024 01:06:27.048 [Gauge] [DEBUG] Run started
+28-07-2024 01:06:27.049 [Gauge] [DEBUG] Starting Html Report plugin
+28-07-2024 01:06:27.055 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54252
+28-07-2024 01:06:27.055 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54252
+28-07-2024 01:06:27.055 [Gauge] [DEBUG] Starting Xml Report plugin
+28-07-2024 01:06:27.060 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54254
+28-07-2024 01:06:27.060 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54254
+28-07-2024 01:06:27.060 [Gauge] [DEBUG] Initialising suite data store.
+28-07-2024 01:06:27.088 [java] [DEBUG] Executing 'Create a new auth' using 'class StepImplementation.CreateANewAuth
+28-07-2024 01:06:28.622 [java] [INFO] Token: e78657323105fb6
+28-07-2024 01:06:28.634 [java] [DEBUG] Executing 'Get all booking ids' using 'class StepImplementation.GetBookingIds
+28-07-2024 01:06:29.580 [java] [INFO] First Three BookingIds: [634, 1814, 2037]
+28-07-2024 01:06:29.587 [java] [DEBUG] Executing 'Get booking id' using 'class StepImplementation.GetBookingId
+28-07-2024 01:06:30.355 [java] [INFO] Guest Name: Jim Jones
+28-07-2024 01:06:30.366 [java] [DEBUG] Executing 'Create new booking' using 'class StepImplementation.CreateNewBooking
+28-07-2024 01:06:31.121 [java] [INFO] New Booking Id2191
+28-07-2024 01:06:31.132 [java] [DEBUG] Executing 'Check new booking id exist' using 'class StepImplementation.CheckNewBookingIdExist
+28-07-2024 01:06:31.891 [java] [INFO] New Booking Id2195
+28-07-2024 01:06:32.622 [java] [INFO] Guest Name: Jim Brown
+28-07-2024 01:06:32.635 [xml-report] [INFO] Successfully generated xml-report to => /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/reports/xml-report
+28-07-2024 01:06:32.635 [html-report] [DEBUG] Transformed SuiteResult to report structure
+28-07-2024 01:06:32.641 [html-report] [INFO] Successfully generated html-report to => /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/reports/html-report/index.html
+28-07-2024 01:06:32.641 [html-report] [DEBUG] Done generating HTML report using theme from /Users/alierendasdemir/.gauge/plugins/html-report/4.3.1/themes/default
+28-07-2024 01:06:32.641 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+28-07-2024 01:06:32.641 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+28-07-2024 01:06:32.642 [java] [DEBUG] Killing Java runner...
+28-07-2024 01:06:32.642 [java] [DEBUG] Stopping execution pool...
+28-07-2024 01:06:32.642 [java] [DEBUG] Shutting down grpc server...
+28-07-2024 01:06:32.644 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+28-07-2024 01:06:32.644 [Gauge] [INFO] Scenarios:	5 executed	5 passed	0 failed	0 skipped
+28-07-2024 01:06:32.644 [Gauge] [INFO] 
+Total time taken: 5.585s
+28-07-2024 01:06:46.286 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/.gauge/screenshots
+28-07-2024 01:06:46.286 [Gauge] [DEBUG] Plugin java is already installed.
+28-07-2024 01:06:46.286 [Gauge] [DEBUG] Plugin html-report is already installed.
+28-07-2024 01:06:46.286 [Gauge] [DEBUG] Plugin xml-report is already installed.
+28-07-2024 01:06:46.286 [Gauge] [DEBUG] Parsing started.
+28-07-2024 01:06:46.286 [Gauge] [DEBUG] Started concepts parsing.
+28-07-2024 01:06:46.287 [Gauge] [DEBUG] 0 concepts parsing completed.
+28-07-2024 01:06:46.287 [Gauge] [DEBUG] Started specifications parsing.
+28-07-2024 01:06:46.287 [Gauge] [DEBUG] 1 specifications parsing completed.
+28-07-2024 01:06:46.287 [Gauge] [DEBUG] Parsing completed.
+28-07-2024 01:06:46.291 [java] [DEBUG] ***** Printing Properties/Env Values *****
+28-07-2024 01:06:46.291 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/go/bin:/Users/alierendasdemir/.gauge/plugins/screenshot/0.3.0
+28-07-2024 01:06:46.291 [java] [DEBUG] JAVA_HOME: /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home
+28-07-2024 01:06:46.291 [java] [DEBUG] gauge_project_root: 
+28-07-2024 01:06:46.291 [java] [DEBUG] gauge_parallel_streams_count: 
+28-07-2024 01:06:46.291 [java] [DEBUG] gauge_reports_dir: reports
+28-07-2024 01:06:46.291 [java] [DEBUG] overwrite_reports: true
+28-07-2024 01:06:46.291 [java] [DEBUG] logs_directory: logs
+28-07-2024 01:06:46.291 [java] [DEBUG] enable_multithreading: false
+28-07-2024 01:06:46.291 [java] [DEBUG] gauge_specs_dir: specs
+28-07-2024 01:06:46.291 [java] [DEBUG] csv_delimiter: ,
+28-07-2024 01:06:46.291 [java] [DEBUG] gauge_java_home: PATH_TO_JAVA_HOME
+28-07-2024 01:06:46.291 [java] [DEBUG] gauge_custom_build_path: 
+28-07-2024 01:06:46.291 [java] [DEBUG] gauge_additional_libs: 
+28-07-2024 01:06:46.291 [java] [DEBUG] gauge_jvm_args: 
+28-07-2024 01:06:46.291 [java] [DEBUG] gauge_custom_compile_dir: 
+28-07-2024 01:06:46.291 [java] [DEBUG] gauge_clear_state_level: 
+28-07-2024 01:06:46.291 [java] [DEBUG] ***** END *****
+28-07-2024 01:06:46.819 [Gauge] [DEBUG] Checking updates...
+28-07-2024 01:06:46.819 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:06:46.967 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:06:47.013 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:06:47.060 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:06:47.107 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:06:47.156 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:06:47.608 [java] [DEBUG] classpath set to /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/target/test-classes:/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/target/classes:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/gauge-java/0.11.0/gauge-java-0.11.0.jar:/Users/alierendasdemir/.m2/repository/org/assertj/assertj-core/3.26.0/assertj-core-3.26.0.jar:/Users/alierendasdemir/.m2/repository/net/bytebuddy/byte-buddy/1.14.16/byte-buddy-1.14.16.jar:/Users/alierendasdemir/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/alierendasdemir/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/alierendasdemir/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/alierendasdemir/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/alierendasdemir/.m2/repository/com/github/javaparser/javaparser-core/3.26.0/javaparser-core-3.26.0.jar:/Users/alierendasdemir/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/alierendasdemir/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/alierendasdemir/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/alierendasdemir/.m2/repository/com/google/protobuf/protobuf-java/4.27.1/protobuf-java-4.27.1.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/alierendasdemir/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/alierendasdemir/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-api/1.64.0/grpc-api-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-netty-shaded/1.64.0/grpc-netty-shaded-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-util/1.64.0/grpc-util-1.64.0.jar:/Users/alierendasdemir/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-core/1.64.0/grpc-core-1.64.0.jar:/Users/alierendasdemir/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-context/1.64.0/grpc-context-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-protobuf/1.64.0/grpc-protobuf-1.64.0.jar:/Users/alierendasdemir/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.29.0/proto-google-common-protos-2.29.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-protobuf-lite/1.64.0/grpc-protobuf-lite-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-stub/1.64.0/grpc-stub-1.64.0.jar:/Users/alierendasdemir/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/maven/gauge-archetype-java/1.6.0/gauge-archetype-java-1.6.0.jar:/Users/alierendasdemir/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/alierendasdemir/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/alierendasdemir/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/alierendasdemir/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/alierendasdemir/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/alierendasdemir/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/alierendasdemir/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/alierendasdemir/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/maven/gauge-maven-plugin/1.6.3/gauge-maven-plugin-1.6.3.jar
+28-07-2024 01:06:47.608 [java] [DEBUG] failed to get full path for java. lstat PATH_TO_JAVA_HOME: no such file or directory
+28-07-2024 01:06:47.608 [java] [DEBUG] found java executable in java
+28-07-2024 01:06:47.608 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+28-07-2024 01:06:47.608 [java] [DEBUG] stdout/stderr is logged to logs/5886-java.out
+28-07-2024 01:06:47.658 [java] [DEBUG] multithreading is set to false
+28-07-2024 01:06:47.827 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+28-07-2024 01:06:47.846 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+28-07-2024 01:06:47.846 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+28-07-2024 01:06:47.846 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+28-07-2024 01:06:48.060 [java] [DEBUG] gauge-java took 397milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+28-07-2024 01:06:48.060 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 397
+28-07-2024 01:06:48.060 [java] [DEBUG] starting gRPC server...
+28-07-2024 01:06:48.180 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54266
+28-07-2024 01:06:48.180 [Gauge] [DEBUG] Successfully made the connection with runner with port: 54266
+28-07-2024 01:06:48.180 [Gauge] [DEBUG] Validation started.
+28-07-2024 01:06:48.541 [java] [DEBUG] Scanning packages for steps
+28-07-2024 01:06:48.543 [java] [DEBUG] Comparing 'StepImplementation.CreateANewAuth' and 'StepImplementation.CreateANewAuth'
+28-07-2024 01:06:48.544 [java] [DEBUG] Found Create a new auth in current project scope.
+28-07-2024 01:06:48.544 [java] [DEBUG] Comparing 'StepImplementation.CheckNewBookingIdExist' and 'StepImplementation.CheckNewBookingIdExist'
+28-07-2024 01:06:48.544 [java] [DEBUG] Found Check new booking id exist in current project scope.
+28-07-2024 01:06:48.544 [java] [DEBUG] Comparing 'StepImplementation.CreateNewBooking' and 'StepImplementation.CreateNewBooking'
+28-07-2024 01:06:48.544 [java] [DEBUG] Found Create new booking in current project scope.
+28-07-2024 01:06:48.544 [java] [DEBUG] Comparing 'StepImplementation.GetBookingId' and 'StepImplementation.GetBookingId'
+28-07-2024 01:06:48.544 [java] [DEBUG] Found Get booking id in current project scope.
+28-07-2024 01:06:48.544 [java] [DEBUG] Comparing 'StepImplementation.GetBookingIds' and 'StepImplementation.GetBookingIds'
+28-07-2024 01:06:48.544 [java] [DEBUG] Found Get all booking ids in current project scope.
+28-07-2024 01:06:48.544 [java] [DEBUG] Scanning packages for hooks
+28-07-2024 01:06:48.546 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+28-07-2024 01:06:48.546 [java] [DEBUG] 	Create a new auth : public void CreateANewAuth()
+28-07-2024 01:06:48.546 [java] [DEBUG] 	Create new booking : public String CreateNewBooking()
+28-07-2024 01:06:48.546 [java] [DEBUG] 	Get booking id : public void GetBookingId()
+28-07-2024 01:06:48.546 [java] [DEBUG] 	Get all booking ids : public void GetBookingIds()
+28-07-2024 01:06:48.546 [java] [DEBUG] 	Check new booking id exist : public void CheckNewBookingIdExist()
+28-07-2024 01:06:48.801 [Gauge] [DEBUG] Validation completed.
+28-07-2024 01:06:48.801 [Gauge] [DEBUG] Run started
+28-07-2024 01:06:48.802 [Gauge] [DEBUG] Starting Html Report plugin
+28-07-2024 01:06:48.809 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+28-07-2024 01:06:48.809 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54269
+28-07-2024 01:06:48.809 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54269
+28-07-2024 01:06:48.809 [Gauge] [DEBUG] Starting Xml Report plugin
+28-07-2024 01:06:48.814 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54271
+28-07-2024 01:06:48.814 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54271
+28-07-2024 01:06:48.814 [Gauge] [DEBUG] Initialising suite data store.
+28-07-2024 01:06:48.828 [Gauge] [INFO] # Heroku Booking Heading
+28-07-2024 01:06:48.834 [Gauge] [INFO] ## Create a new auth
+28-07-2024 01:06:48.840 [Gauge] [DEBUG] * Create a new auth
+
+28-07-2024 01:06:48.845 [java] [DEBUG] Executing 'Create a new auth' using 'class StepImplementation.CreateANewAuth
+28-07-2024 01:06:50.370 [java] [INFO] Token: 4882031fbd4f4c1
+28-07-2024 01:06:50.379 [Gauge] [INFO] ## Get all booking ids
+28-07-2024 01:06:50.382 [Gauge] [DEBUG] * Get all booking ids
+
+28-07-2024 01:06:50.385 [java] [DEBUG] Executing 'Get all booking ids' using 'class StepImplementation.GetBookingIds
+28-07-2024 01:06:51.436 [java] [INFO] First Three BookingIds: [2218, 634, 1814]
+28-07-2024 01:06:51.439 [Gauge] [INFO] ## Get booking id
+28-07-2024 01:06:51.441 [Gauge] [DEBUG] * Get booking id
+
+28-07-2024 01:06:51.443 [java] [DEBUG] Executing 'Get booking id' using 'class StepImplementation.GetBookingId
+28-07-2024 01:06:52.173 [java] [INFO] Guest Name: Jim Jones
+28-07-2024 01:06:52.181 [Gauge] [INFO] ## Create new a booking
+28-07-2024 01:06:52.184 [Gauge] [DEBUG] * Create new booking
+
+28-07-2024 01:06:52.186 [java] [DEBUG] Executing 'Create new booking' using 'class StepImplementation.CreateNewBooking
+28-07-2024 01:06:52.901 [java] [INFO] New Booking Id2400
+28-07-2024 01:06:52.906 [Gauge] [INFO] ## Check new booking id exist
+28-07-2024 01:06:52.908 [Gauge] [DEBUG] * Check new booking id exist
+28-07-2024 01:06:52.910 [java] [DEBUG] Executing 'Check new booking id exist' using 'class StepImplementation.CheckNewBookingIdExist
+28-07-2024 01:06:53.727 [java] [INFO] New Booking Id2410
+28-07-2024 01:06:54.529 [java] [INFO] Guest Name: Jim Brown
+28-07-2024 01:06:54.542 [html-report] [DEBUG] Transformed SuiteResult to report structure
+28-07-2024 01:06:54.547 [html-report] [INFO] Successfully generated html-report to => /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/reports/html-report/index.html
+28-07-2024 01:06:54.547 [html-report] [DEBUG] Done generating HTML report using theme from /Users/alierendasdemir/.gauge/plugins/html-report/4.3.1/themes/default
+28-07-2024 01:06:54.547 [xml-report] [INFO] Successfully generated xml-report to => /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/reports/xml-report
+28-07-2024 01:06:54.547 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+28-07-2024 01:06:54.547 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+28-07-2024 01:06:54.549 [java] [DEBUG] Killing Java runner...
+28-07-2024 01:06:54.549 [java] [DEBUG] Stopping execution pool...
+28-07-2024 01:06:54.549 [java] [DEBUG] Shutting down grpc server...
+28-07-2024 01:06:54.551 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+28-07-2024 01:06:54.551 [Gauge] [INFO] Scenarios:	5 executed	5 passed	0 failed	0 skipped
+28-07-2024 01:06:54.551 [Gauge] [INFO] 
+Total time taken: 5.74s
+28-07-2024 01:13:39.383 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/.gauge/screenshots
+28-07-2024 01:13:39.384 [Gauge] [DEBUG] Plugin java is already installed.
+28-07-2024 01:13:39.384 [Gauge] [DEBUG] Plugin html-report is already installed.
+28-07-2024 01:13:39.384 [Gauge] [DEBUG] Plugin xml-report is already installed.
+28-07-2024 01:13:39.385 [Gauge] [DEBUG] Parsing started.
+28-07-2024 01:13:39.385 [Gauge] [DEBUG] Started concepts parsing.
+28-07-2024 01:13:39.386 [Gauge] [DEBUG] 0 concepts parsing completed.
+28-07-2024 01:13:39.386 [Gauge] [DEBUG] Started specifications parsing.
+28-07-2024 01:13:39.386 [Gauge] [DEBUG] 1 specifications parsing completed.
+28-07-2024 01:13:39.386 [Gauge] [DEBUG] Parsing completed.
+28-07-2024 01:13:39.399 [java] [DEBUG] ***** Printing Properties/Env Values *****
+28-07-2024 01:13:39.399 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/go/bin:/Users/alierendasdemir/.gauge/plugins/screenshot/0.3.0
+28-07-2024 01:13:39.399 [java] [DEBUG] JAVA_HOME: 
+28-07-2024 01:13:39.399 [java] [DEBUG] gauge_project_root: 
+28-07-2024 01:13:39.399 [java] [DEBUG] gauge_parallel_streams_count: 
+28-07-2024 01:13:39.399 [java] [DEBUG] gauge_reports_dir: reports
+28-07-2024 01:13:39.399 [java] [DEBUG] overwrite_reports: true
+28-07-2024 01:13:39.399 [java] [DEBUG] logs_directory: logs
+28-07-2024 01:13:39.399 [java] [DEBUG] enable_multithreading: false
+28-07-2024 01:13:39.399 [java] [DEBUG] gauge_specs_dir: specs
+28-07-2024 01:13:39.399 [java] [DEBUG] csv_delimiter: ,
+28-07-2024 01:13:39.399 [java] [DEBUG] gauge_java_home: PATH_TO_JAVA_HOME
+28-07-2024 01:13:39.399 [java] [DEBUG] gauge_custom_build_path: 
+28-07-2024 01:13:39.399 [java] [DEBUG] gauge_additional_libs: 
+28-07-2024 01:13:39.399 [java] [DEBUG] gauge_jvm_args: 
+28-07-2024 01:13:39.399 [java] [DEBUG] gauge_custom_compile_dir: 
+28-07-2024 01:13:39.399 [java] [DEBUG] gauge_clear_state_level: 
+28-07-2024 01:13:39.399 [java] [DEBUG] ***** END *****
+28-07-2024 01:13:40.009 [Gauge] [DEBUG] Checking updates...
+28-07-2024 01:13:40.010 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:13:40.195 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:13:40.241 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:13:40.288 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:13:40.332 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:13:40.379 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:13:41.104 [java] [DEBUG] classpath set to /Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.base:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.compiler:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.datatransfer:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.desktop:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.instrument:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.logging:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.management:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.management.rmi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.naming:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.net.http:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.prefs:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.rmi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.scripting:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.se:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.security.jgss:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.security.sasl:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.smartcardio:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.sql:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.sql.rowset:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.transaction.xa:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.xml:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.xml.crypto:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.accessibility:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.attach:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.charsets:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.compiler:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.crypto.cryptoki:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.crypto.ec:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.dynalink:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.editpad:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.hotspot.agent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.httpserver:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.incubator.concurrent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.incubator.vector:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.ed:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.jvmstat:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.le:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.opt:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.vm.ci:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.vm.compiler:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.vm.compiler.management:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jartool:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.javadoc:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jcmd:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jconsole:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jdeps:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jdi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jdwp.agent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jfr:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jlink:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jpackage:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jshell:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jsobject:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jstatd:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.localedata:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.management:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.management.agent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.management.jfr:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.naming.dns:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.naming.rmi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.net:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.nio.mapmode:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.random:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.sctp:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.security.auth:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.security.jgss:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.unsupported:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.unsupported.desktop:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.xml.dom:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.zipfs:/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/target/test-classes:/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/target/classes:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/gauge-java/0.11.0/gauge-java-0.11.0.jar:/Users/alierendasdemir/.m2/repository/org/assertj/assertj-core/3.26.0/assertj-core-3.26.0.jar:/Users/alierendasdemir/.m2/repository/net/bytebuddy/byte-buddy/1.14.16/byte-buddy-1.14.16.jar:/Users/alierendasdemir/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/alierendasdemir/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/alierendasdemir/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/alierendasdemir/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/alierendasdemir/.m2/repository/com/github/javaparser/javaparser-core/3.26.0/javaparser-core-3.26.0.jar:/Users/alierendasdemir/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/alierendasdemir/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/alierendasdemir/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/alierendasdemir/.m2/repository/com/google/protobuf/protobuf-java/4.27.1/protobuf-java-4.27.1.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/alierendasdemir/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/alierendasdemir/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-api/1.64.0/grpc-api-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-netty-shaded/1.64.0/grpc-netty-shaded-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-util/1.64.0/grpc-util-1.64.0.jar:/Users/alierendasdemir/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-core/1.64.0/grpc-core-1.64.0.jar:/Users/alierendasdemir/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-context/1.64.0/grpc-context-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-protobuf/1.64.0/grpc-protobuf-1.64.0.jar:/Users/alierendasdemir/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.29.0/proto-google-common-protos-2.29.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-protobuf-lite/1.64.0/grpc-protobuf-lite-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-stub/1.64.0/grpc-stub-1.64.0.jar:/Users/alierendasdemir/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/maven/gauge-archetype-java/1.6.0/gauge-archetype-java-1.6.0.jar:/Users/alierendasdemir/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/alierendasdemir/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/alierendasdemir/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/alierendasdemir/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/alierendasdemir/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/alierendasdemir/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/alierendasdemir/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/alierendasdemir/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar
+28-07-2024 01:13:41.105 [java] [DEBUG] failed to get full path for java. lstat PATH_TO_JAVA_HOME: no such file or directory
+28-07-2024 01:13:41.105 [java] [DEBUG] found java executable in java
+28-07-2024 01:13:41.106 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+28-07-2024 01:13:41.106 [java] [DEBUG] stdout/stderr is logged to logs/6041-java.out
+28-07-2024 01:13:41.159 [java] [DEBUG] multithreading is set to false
+28-07-2024 01:13:41.301 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+28-07-2024 01:13:41.317 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+28-07-2024 01:13:41.317 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+28-07-2024 01:13:41.317 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+28-07-2024 01:13:41.516 [java] [DEBUG] gauge-java took 355milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+28-07-2024 01:13:41.516 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 355
+28-07-2024 01:13:41.517 [java] [DEBUG] starting gRPC server...
+28-07-2024 01:13:41.588 [java] [DEBUG] started gRPC server on port 54329
+28-07-2024 01:13:41.589 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54329
+28-07-2024 01:13:41.589 [Gauge] [DEBUG] Successfully made the connection with runner with port: 54329
+28-07-2024 01:13:41.589 [Gauge] [DEBUG] Validation started.
+28-07-2024 01:13:42.196 [java] [DEBUG] Scanning packages for steps
+28-07-2024 01:13:42.200 [java] [DEBUG] Comparing 'StepImplementation.CreateANewAuth' and 'StepImplementation.CreateANewAuth'
+28-07-2024 01:13:42.202 [java] [DEBUG] Found Create a new auth in current project scope.
+28-07-2024 01:13:42.202 [java] [DEBUG] Comparing 'StepImplementation.CheckNewBookingIdExist' and 'StepImplementation.CheckNewBookingIdExist'
+28-07-2024 01:13:42.202 [java] [DEBUG] Found Check new booking id exist in current project scope.
+28-07-2024 01:13:42.202 [java] [DEBUG] Comparing 'StepImplementation.CreateNewBooking' and 'StepImplementation.CreateNewBooking'
+28-07-2024 01:13:42.202 [java] [DEBUG] Found Create new booking in current project scope.
+28-07-2024 01:13:42.203 [java] [DEBUG] Comparing 'StepImplementation.GetBookingId' and 'StepImplementation.GetBookingId'
+28-07-2024 01:13:42.203 [java] [DEBUG] Found Get booking id in current project scope.
+28-07-2024 01:13:42.203 [java] [DEBUG] Comparing 'StepImplementation.GetBookingIds' and 'StepImplementation.GetBookingIds'
+28-07-2024 01:13:42.203 [java] [DEBUG] Found Get all booking ids in current project scope.
+28-07-2024 01:13:42.203 [java] [DEBUG] Scanning packages for hooks
+28-07-2024 01:13:42.205 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+28-07-2024 01:13:42.205 [java] [DEBUG] 	Create a new auth : public void CreateANewAuth()
+28-07-2024 01:13:42.205 [java] [DEBUG] 	Create new booking : public String CreateNewBooking()
+28-07-2024 01:13:42.205 [java] [DEBUG] 	Get booking id : public void GetBookingId()
+28-07-2024 01:13:42.205 [java] [DEBUG] 	Get all booking ids : public void GetBookingIds()
+28-07-2024 01:13:42.205 [java] [DEBUG] 	Check new booking id exist : public void CheckNewBookingIdExist()
+28-07-2024 01:13:42.506 [Gauge] [DEBUG] Validation completed.
+28-07-2024 01:13:42.506 [Gauge] [DEBUG] Run started
+28-07-2024 01:13:42.506 [Gauge] [DEBUG] Starting Html Report plugin
+28-07-2024 01:13:42.514 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+28-07-2024 01:13:42.514 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54332
+28-07-2024 01:13:42.515 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54332
+28-07-2024 01:13:42.515 [Gauge] [DEBUG] Starting Xml Report plugin
+28-07-2024 01:13:42.520 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54334
+28-07-2024 01:13:42.520 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54334
+28-07-2024 01:13:42.520 [Gauge] [DEBUG] Initialising suite data store.
+28-07-2024 01:13:42.545 [java] [DEBUG] Executing 'Create a new auth' using 'class StepImplementation.CreateANewAuth
+28-07-2024 01:13:42.546 [java] [INFO] Gauge_Service_Test/src/test/java/configService.properties (No such file or directory)
+28-07-2024 01:13:42.917 [html-report] [DEBUG] Transformed SuiteResult to report structure
+28-07-2024 01:13:42.922 [html-report] [INFO] Successfully generated html-report to => /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/reports/html-report/index.html
+28-07-2024 01:13:42.922 [html-report] [DEBUG] Done generating HTML report using theme from /Users/alierendasdemir/.gauge/plugins/html-report/4.3.1/themes/default
+28-07-2024 01:13:42.922 [xml-report] [INFO] Successfully generated xml-report to => /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/reports/xml-report
+28-07-2024 01:13:42.922 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+28-07-2024 01:13:42.922 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+28-07-2024 01:13:42.923 [java] [DEBUG] Killing Java runner...
+28-07-2024 01:13:42.924 [java] [DEBUG] Stopping execution pool...
+28-07-2024 01:13:42.924 [java] [DEBUG] Shutting down grpc server...
+28-07-2024 01:13:42.927 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+28-07-2024 01:13:42.927 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+28-07-2024 01:13:42.927 [Gauge] [INFO] 
+Total time taken: 409ms
+28-07-2024 01:15:02.518 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/.gauge/screenshots
+28-07-2024 01:15:02.518 [Gauge] [DEBUG] Plugin xml-report is already installed.
+28-07-2024 01:15:02.519 [Gauge] [DEBUG] Plugin java is already installed.
+28-07-2024 01:15:02.519 [Gauge] [DEBUG] Plugin html-report is already installed.
+28-07-2024 01:15:02.519 [Gauge] [DEBUG] Parsing started.
+28-07-2024 01:15:02.519 [Gauge] [DEBUG] Started concepts parsing.
+28-07-2024 01:15:02.519 [Gauge] [DEBUG] 0 concepts parsing completed.
+28-07-2024 01:15:02.519 [Gauge] [DEBUG] Started specifications parsing.
+28-07-2024 01:15:02.520 [Gauge] [DEBUG] 1 specifications parsing completed.
+28-07-2024 01:15:02.520 [Gauge] [DEBUG] Parsing completed.
+28-07-2024 01:15:02.523 [java] [DEBUG] ***** Printing Properties/Env Values *****
+28-07-2024 01:15:02.523 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/go/bin:/Users/alierendasdemir/.gauge/plugins/screenshot/0.3.0
+28-07-2024 01:15:02.523 [java] [DEBUG] JAVA_HOME: 
+28-07-2024 01:15:02.523 [java] [DEBUG] gauge_project_root: 
+28-07-2024 01:15:02.523 [java] [DEBUG] gauge_parallel_streams_count: 
+28-07-2024 01:15:02.523 [java] [DEBUG] gauge_reports_dir: reports
+28-07-2024 01:15:02.523 [java] [DEBUG] overwrite_reports: true
+28-07-2024 01:15:02.523 [java] [DEBUG] logs_directory: logs
+28-07-2024 01:15:02.523 [java] [DEBUG] enable_multithreading: false
+28-07-2024 01:15:02.523 [java] [DEBUG] gauge_specs_dir: specs
+28-07-2024 01:15:02.523 [java] [DEBUG] csv_delimiter: ,
+28-07-2024 01:15:02.523 [java] [DEBUG] gauge_java_home: PATH_TO_JAVA_HOME
+28-07-2024 01:15:02.523 [java] [DEBUG] gauge_custom_build_path: 
+28-07-2024 01:15:02.523 [java] [DEBUG] gauge_additional_libs: 
+28-07-2024 01:15:02.523 [java] [DEBUG] gauge_jvm_args: 
+28-07-2024 01:15:02.523 [java] [DEBUG] gauge_custom_compile_dir: 
+28-07-2024 01:15:02.523 [java] [DEBUG] gauge_clear_state_level: 
+28-07-2024 01:15:02.523 [java] [DEBUG] ***** END *****
+28-07-2024 01:15:03.037 [Gauge] [DEBUG] Checking updates...
+28-07-2024 01:15:03.037 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:15:03.230 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:15:03.275 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:15:03.322 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:15:03.367 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:15:03.411 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:15:03.863 [java] [DEBUG] classpath set to /Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.base:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.compiler:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.datatransfer:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.desktop:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.instrument:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.logging:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.management:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.management.rmi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.naming:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.net.http:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.prefs:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.rmi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.scripting:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.se:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.security.jgss:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.security.sasl:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.smartcardio:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.sql:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.sql.rowset:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.transaction.xa:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.xml:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/java.xml.crypto:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.accessibility:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.attach:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.charsets:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.compiler:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.crypto.cryptoki:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.crypto.ec:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.dynalink:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.editpad:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.hotspot.agent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.httpserver:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.incubator.concurrent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.incubator.vector:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.ed:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.jvmstat:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.le:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.opt:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.vm.ci:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.vm.compiler:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.internal.vm.compiler.management:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jartool:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.javadoc:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jcmd:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jconsole:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jdeps:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jdi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jdwp.agent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jfr:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jlink:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jpackage:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jshell:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jsobject:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.jstatd:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.localedata:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.management:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.management.agent:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.management.jfr:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.naming.dns:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.naming.rmi:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.net:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.nio.mapmode:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.random:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.sctp:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.security.auth:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.security.jgss:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.unsupported:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.unsupported.desktop:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.xml.dom:/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home!/jdk.zipfs:/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/target/test-classes:/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/target/classes:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/gauge-java/0.11.0/gauge-java-0.11.0.jar:/Users/alierendasdemir/.m2/repository/org/assertj/assertj-core/3.26.0/assertj-core-3.26.0.jar:/Users/alierendasdemir/.m2/repository/net/bytebuddy/byte-buddy/1.14.16/byte-buddy-1.14.16.jar:/Users/alierendasdemir/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/alierendasdemir/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/alierendasdemir/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/alierendasdemir/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/alierendasdemir/.m2/repository/com/github/javaparser/javaparser-core/3.26.0/javaparser-core-3.26.0.jar:/Users/alierendasdemir/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/alierendasdemir/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/alierendasdemir/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/alierendasdemir/.m2/repository/com/google/protobuf/protobuf-java/4.27.1/protobuf-java-4.27.1.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/alierendasdemir/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/alierendasdemir/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-api/1.64.0/grpc-api-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-netty-shaded/1.64.0/grpc-netty-shaded-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-util/1.64.0/grpc-util-1.64.0.jar:/Users/alierendasdemir/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-core/1.64.0/grpc-core-1.64.0.jar:/Users/alierendasdemir/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-context/1.64.0/grpc-context-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-protobuf/1.64.0/grpc-protobuf-1.64.0.jar:/Users/alierendasdemir/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.29.0/proto-google-common-protos-2.29.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-protobuf-lite/1.64.0/grpc-protobuf-lite-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-stub/1.64.0/grpc-stub-1.64.0.jar:/Users/alierendasdemir/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/maven/gauge-archetype-java/1.6.0/gauge-archetype-java-1.6.0.jar:/Users/alierendasdemir/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/alierendasdemir/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/alierendasdemir/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/alierendasdemir/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/alierendasdemir/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/alierendasdemir/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/alierendasdemir/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/alierendasdemir/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar
+28-07-2024 01:15:03.863 [java] [DEBUG] failed to get full path for java. lstat PATH_TO_JAVA_HOME: no such file or directory
+28-07-2024 01:15:03.863 [java] [DEBUG] found java executable in java
+28-07-2024 01:15:03.863 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+28-07-2024 01:15:03.863 [java] [DEBUG] stdout/stderr is logged to logs/6078-java.out
+28-07-2024 01:15:03.915 [java] [DEBUG] multithreading is set to false
+28-07-2024 01:15:04.051 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+28-07-2024 01:15:04.066 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+28-07-2024 01:15:04.066 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+28-07-2024 01:15:04.066 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+28-07-2024 01:15:04.250 [java] [DEBUG] gauge-java took 334milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+28-07-2024 01:15:04.250 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 334
+28-07-2024 01:15:04.250 [java] [DEBUG] starting gRPC server...
+28-07-2024 01:15:04.345 [java] [DEBUG] started gRPC server on port 54344
+28-07-2024 01:15:04.345 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54344
+28-07-2024 01:15:04.346 [Gauge] [DEBUG] Successfully made the connection with runner with port: 54344
+28-07-2024 01:15:04.346 [Gauge] [DEBUG] Validation started.
+28-07-2024 01:15:04.947 [java] [DEBUG] Scanning packages for steps
+28-07-2024 01:15:04.949 [java] [DEBUG] Comparing 'StepImplementation.CreateANewAuth' and 'StepImplementation.CreateANewAuth'
+28-07-2024 01:15:04.950 [java] [DEBUG] Found Create a new auth in current project scope.
+28-07-2024 01:15:04.950 [java] [DEBUG] Comparing 'StepImplementation.CheckNewBookingIdExist' and 'StepImplementation.CheckNewBookingIdExist'
+28-07-2024 01:15:04.950 [java] [DEBUG] Found Check new booking id exist in current project scope.
+28-07-2024 01:15:04.950 [java] [DEBUG] Comparing 'StepImplementation.CreateNewBooking' and 'StepImplementation.CreateNewBooking'
+28-07-2024 01:15:04.950 [java] [DEBUG] Found Create new booking in current project scope.
+28-07-2024 01:15:04.950 [java] [DEBUG] Comparing 'StepImplementation.GetBookingId' and 'StepImplementation.GetBookingId'
+28-07-2024 01:15:04.950 [java] [DEBUG] Found Get booking id in current project scope.
+28-07-2024 01:15:04.950 [java] [DEBUG] Comparing 'StepImplementation.GetBookingIds' and 'StepImplementation.GetBookingIds'
+28-07-2024 01:15:04.950 [java] [DEBUG] Found Get all booking ids in current project scope.
+28-07-2024 01:15:04.950 [java] [DEBUG] Scanning packages for hooks
+28-07-2024 01:15:04.952 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+28-07-2024 01:15:04.952 [java] [DEBUG] 	Create a new auth : public void CreateANewAuth()
+28-07-2024 01:15:04.952 [java] [DEBUG] 	Create new booking : public String CreateNewBooking()
+28-07-2024 01:15:04.952 [java] [DEBUG] 	Get booking id : public void GetBookingId()
+28-07-2024 01:15:04.952 [java] [DEBUG] 	Get all booking ids : public void GetBookingIds()
+28-07-2024 01:15:04.952 [java] [DEBUG] 	Check new booking id exist : public void CheckNewBookingIdExist()
+28-07-2024 01:15:05.306 [Gauge] [DEBUG] Validation completed.
+28-07-2024 01:15:05.306 [Gauge] [DEBUG] Run started
+28-07-2024 01:15:05.307 [Gauge] [DEBUG] Starting Html Report plugin
+28-07-2024 01:15:05.312 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+28-07-2024 01:15:05.313 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54347
+28-07-2024 01:15:05.313 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54347
+28-07-2024 01:15:05.313 [Gauge] [DEBUG] Starting Xml Report plugin
+28-07-2024 01:15:05.317 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54349
+28-07-2024 01:15:05.318 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54349
+28-07-2024 01:15:05.318 [Gauge] [DEBUG] Initialising suite data store.
+28-07-2024 01:15:05.348 [java] [DEBUG] Executing 'Create a new auth' using 'class StepImplementation.CreateANewAuth
+28-07-2024 01:15:06.860 [java] [INFO] Token: b2249080064edb9
+28-07-2024 01:15:06.870 [java] [DEBUG] Executing 'Get all booking ids' using 'class StepImplementation.GetBookingIds
+28-07-2024 01:15:07.777 [java] [INFO] First Three BookingIds: [1032, 749, 561]
+28-07-2024 01:15:07.785 [java] [DEBUG] Executing 'Get booking id' using 'class StepImplementation.GetBookingId
+28-07-2024 01:15:08.494 [java] [INFO] Guest Name: Sally Jackson
+28-07-2024 01:15:08.503 [java] [DEBUG] Executing 'Create new booking' using 'class StepImplementation.CreateNewBooking
+28-07-2024 01:15:09.215 [java] [INFO] New Booking Id1971
+28-07-2024 01:15:09.224 [java] [DEBUG] Executing 'Check new booking id exist' using 'class StepImplementation.CheckNewBookingIdExist
+28-07-2024 01:15:09.936 [java] [INFO] New Booking Id1974
+28-07-2024 01:15:10.647 [java] [INFO] Guest Name: Jim Brown
+28-07-2024 01:15:10.658 [html-report] [DEBUG] Transformed SuiteResult to report structure
+28-07-2024 01:15:10.664 [html-report] [INFO] Successfully generated html-report to => /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/reports/html-report/index.html
+28-07-2024 01:15:10.664 [html-report] [DEBUG] Done generating HTML report using theme from /Users/alierendasdemir/.gauge/plugins/html-report/4.3.1/themes/default
+28-07-2024 01:15:10.665 [xml-report] [INFO] Successfully generated xml-report to => /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/reports/xml-report
+28-07-2024 01:15:10.665 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+28-07-2024 01:15:10.665 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+28-07-2024 01:15:10.666 [java] [DEBUG] Killing Java runner...
+28-07-2024 01:15:10.667 [java] [DEBUG] Stopping execution pool...
+28-07-2024 01:15:10.667 [java] [DEBUG] Shutting down grpc server...
+28-07-2024 01:15:10.668 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+28-07-2024 01:15:10.668 [Gauge] [INFO] Scenarios:	5 executed	5 passed	0 failed	0 skipped
+28-07-2024 01:15:10.668 [Gauge] [INFO] 
+Total time taken: 5.351s
+28-07-2024 01:18:20.130 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/.gauge/screenshots
+28-07-2024 01:18:20.131 [Gauge] [DEBUG] Plugin xml-report is already installed.
+28-07-2024 01:18:20.131 [Gauge] [DEBUG] Plugin java is already installed.
+28-07-2024 01:18:20.131 [Gauge] [DEBUG] Plugin html-report is already installed.
+28-07-2024 01:18:20.132 [Gauge] [DEBUG] Parsing started.
+28-07-2024 01:18:20.132 [Gauge] [DEBUG] Started concepts parsing.
+28-07-2024 01:18:20.132 [Gauge] [DEBUG] 0 concepts parsing completed.
+28-07-2024 01:18:20.132 [Gauge] [DEBUG] Started specifications parsing.
+28-07-2024 01:18:20.133 [Gauge] [DEBUG] 1 specifications parsing completed.
+28-07-2024 01:18:20.133 [Gauge] [DEBUG] Parsing completed.
+28-07-2024 01:18:20.142 [java] [DEBUG] ***** Printing Properties/Env Values *****
+28-07-2024 01:18:20.142 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/go/bin:/Users/alierendasdemir/.gauge/plugins/screenshot/0.3.0
+28-07-2024 01:18:20.142 [java] [DEBUG] JAVA_HOME: /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home
+28-07-2024 01:18:20.142 [java] [DEBUG] gauge_project_root: 
+28-07-2024 01:18:20.142 [java] [DEBUG] gauge_parallel_streams_count: 
+28-07-2024 01:18:20.142 [java] [DEBUG] gauge_reports_dir: reports
+28-07-2024 01:18:20.142 [java] [DEBUG] overwrite_reports: true
+28-07-2024 01:18:20.142 [java] [DEBUG] logs_directory: logs
+28-07-2024 01:18:20.142 [java] [DEBUG] enable_multithreading: false
+28-07-2024 01:18:20.142 [java] [DEBUG] gauge_specs_dir: specs
+28-07-2024 01:18:20.142 [java] [DEBUG] csv_delimiter: ,
+28-07-2024 01:18:20.142 [java] [DEBUG] gauge_java_home: PATH_TO_JAVA_HOME
+28-07-2024 01:18:20.142 [java] [DEBUG] gauge_custom_build_path: 
+28-07-2024 01:18:20.142 [java] [DEBUG] gauge_additional_libs: 
+28-07-2024 01:18:20.142 [java] [DEBUG] gauge_jvm_args: 
+28-07-2024 01:18:20.142 [java] [DEBUG] gauge_custom_compile_dir: 
+28-07-2024 01:18:20.142 [java] [DEBUG] gauge_clear_state_level: 
+28-07-2024 01:18:20.142 [java] [DEBUG] ***** END *****
+28-07-2024 01:18:20.340 [Gauge] [DEBUG] Checking updates...
+28-07-2024 01:18:20.340 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:18:20.492 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:18:20.538 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:18:20.586 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:18:20.633 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:18:20.679 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:18:21.538 [java] [DEBUG] classpath set to /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/target/test-classes:/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/target/classes:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/gauge-java/0.11.0/gauge-java-0.11.0.jar:/Users/alierendasdemir/.m2/repository/org/assertj/assertj-core/3.26.0/assertj-core-3.26.0.jar:/Users/alierendasdemir/.m2/repository/net/bytebuddy/byte-buddy/1.14.16/byte-buddy-1.14.16.jar:/Users/alierendasdemir/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/alierendasdemir/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/alierendasdemir/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/alierendasdemir/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/alierendasdemir/.m2/repository/com/github/javaparser/javaparser-core/3.26.0/javaparser-core-3.26.0.jar:/Users/alierendasdemir/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/alierendasdemir/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/alierendasdemir/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/alierendasdemir/.m2/repository/com/google/protobuf/protobuf-java/4.27.1/protobuf-java-4.27.1.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/alierendasdemir/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/alierendasdemir/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/alierendasdemir/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-api/1.64.0/grpc-api-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-netty-shaded/1.64.0/grpc-netty-shaded-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-util/1.64.0/grpc-util-1.64.0.jar:/Users/alierendasdemir/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-core/1.64.0/grpc-core-1.64.0.jar:/Users/alierendasdemir/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-context/1.64.0/grpc-context-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-protobuf/1.64.0/grpc-protobuf-1.64.0.jar:/Users/alierendasdemir/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.29.0/proto-google-common-protos-2.29.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-protobuf-lite/1.64.0/grpc-protobuf-lite-1.64.0.jar:/Users/alierendasdemir/.m2/repository/io/grpc/grpc-stub/1.64.0/grpc-stub-1.64.0.jar:/Users/alierendasdemir/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/maven/gauge-archetype-java/1.6.0/gauge-archetype-java-1.6.0.jar:/Users/alierendasdemir/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/alierendasdemir/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/alierendasdemir/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/alierendasdemir/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/alierendasdemir/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/alierendasdemir/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/alierendasdemir/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/alierendasdemir/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/alierendasdemir/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/alierendasdemir/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/alierendasdemir/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/alierendasdemir/.m2/repository/com/thoughtworks/gauge/maven/gauge-maven-plugin/1.6.3/gauge-maven-plugin-1.6.3.jar
+28-07-2024 01:18:21.538 [java] [DEBUG] failed to get full path for java. lstat PATH_TO_JAVA_HOME: no such file or directory
+28-07-2024 01:18:21.538 [java] [DEBUG] found java executable in java
+28-07-2024 01:18:21.538 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+28-07-2024 01:18:21.538 [java] [DEBUG] stdout/stderr is logged to logs/6228-java.out
+28-07-2024 01:18:21.597 [java] [DEBUG] multithreading is set to false
+28-07-2024 01:18:21.769 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+28-07-2024 01:18:21.802 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+28-07-2024 01:18:21.802 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+28-07-2024 01:18:21.802 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+28-07-2024 01:18:22.036 [java] [DEBUG] gauge-java took 433milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+28-07-2024 01:18:22.037 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 433
+28-07-2024 01:18:22.037 [java] [DEBUG] starting gRPC server...
+28-07-2024 01:18:22.114 [java] [DEBUG] started gRPC server on port 54392
+28-07-2024 01:18:22.114 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54392
+28-07-2024 01:18:22.114 [Gauge] [DEBUG] Successfully made the connection with runner with port: 54392
+28-07-2024 01:18:22.114 [Gauge] [DEBUG] Validation started.
+28-07-2024 01:18:22.542 [java] [DEBUG] Scanning packages for steps
+28-07-2024 01:18:22.545 [java] [DEBUG] Comparing 'StepImplementation.CreateANewAuth' and 'StepImplementation.CreateANewAuth'
+28-07-2024 01:18:22.545 [java] [DEBUG] Found Create a new auth in current project scope.
+28-07-2024 01:18:22.545 [java] [DEBUG] Comparing 'StepImplementation.CheckNewBookingIdExist' and 'StepImplementation.CheckNewBookingIdExist'
+28-07-2024 01:18:22.545 [java] [DEBUG] Found Check new booking id exist in current project scope.
+28-07-2024 01:18:22.545 [java] [DEBUG] Comparing 'StepImplementation.CreateNewBooking' and 'StepImplementation.CreateNewBooking'
+28-07-2024 01:18:22.545 [java] [DEBUG] Found Create new booking in current project scope.
+28-07-2024 01:18:22.545 [java] [DEBUG] Comparing 'StepImplementation.GetBookingId' and 'StepImplementation.GetBookingId'
+28-07-2024 01:18:22.545 [java] [DEBUG] Found Get booking id in current project scope.
+28-07-2024 01:18:22.546 [java] [DEBUG] Comparing 'StepImplementation.GetBookingIds' and 'StepImplementation.GetBookingIds'
+28-07-2024 01:18:22.546 [java] [DEBUG] Found Get all booking ids in current project scope.
+28-07-2024 01:18:22.546 [java] [DEBUG] Scanning packages for hooks
+28-07-2024 01:18:22.548 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+28-07-2024 01:18:22.548 [java] [DEBUG] 	Create a new auth : public void CreateANewAuth()
+28-07-2024 01:18:22.548 [java] [DEBUG] 	Create new booking : public String CreateNewBooking()
+28-07-2024 01:18:22.548 [java] [DEBUG] 	Get booking id : public void GetBookingId()
+28-07-2024 01:18:22.548 [java] [DEBUG] 	Get all booking ids : public void GetBookingIds()
+28-07-2024 01:18:22.548 [java] [DEBUG] 	Check new booking id exist : public void CheckNewBookingIdExist()
+28-07-2024 01:18:22.766 [Gauge] [DEBUG] Validation completed.
+28-07-2024 01:18:22.766 [Gauge] [DEBUG] Run started
+28-07-2024 01:18:22.767 [Gauge] [DEBUG] Starting Html Report plugin
+28-07-2024 01:18:22.773 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+28-07-2024 01:18:22.773 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54395
+28-07-2024 01:18:22.774 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54395
+28-07-2024 01:18:22.774 [Gauge] [DEBUG] Starting Xml Report plugin
+28-07-2024 01:18:22.779 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54397
+28-07-2024 01:18:22.779 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 54397
+28-07-2024 01:18:22.779 [Gauge] [DEBUG] Initialising suite data store.
+28-07-2024 01:18:22.793 [Gauge] [INFO] # Heroku Booking Heading
+28-07-2024 01:18:22.796 [Gauge] [INFO] ## Create a new auth
+28-07-2024 01:18:22.800 [Gauge] [DEBUG] * Create a new auth
+
+28-07-2024 01:18:22.805 [java] [DEBUG] Executing 'Create a new auth' using 'class StepImplementation.CreateANewAuth
+28-07-2024 01:18:24.412 [java] [INFO] Token: 37f933fd9e3bae3
+28-07-2024 01:18:24.417 [Gauge] [INFO] ## Get all booking ids
+28-07-2024 01:18:24.419 [Gauge] [DEBUG] * Get all booking ids
+
+28-07-2024 01:18:24.422 [java] [DEBUG] Executing 'Get all booking ids' using 'class StepImplementation.GetBookingIds
+28-07-2024 01:18:25.377 [java] [INFO] First Three BookingIds: [1032, 2578, 749]
+28-07-2024 01:18:25.385 [Gauge] [INFO] ## Get booking id
+28-07-2024 01:18:25.392 [Gauge] [DEBUG] * Get booking id
+
+28-07-2024 01:18:25.399 [java] [DEBUG] Executing 'Get booking id' using 'class StepImplementation.GetBookingId
+28-07-2024 01:18:26.135 [java] [INFO] Guest Name: Sally Jackson
+28-07-2024 01:18:26.139 [Gauge] [INFO] ## Create new a booking
+28-07-2024 01:18:26.143 [Gauge] [DEBUG] * Create new booking
+
+28-07-2024 01:18:26.145 [java] [DEBUG] Executing 'Create new booking' using 'class StepImplementation.CreateNewBooking
+28-07-2024 01:18:26.861 [java] [INFO] New Booking Id3641
+28-07-2024 01:18:26.865 [Gauge] [INFO] ## Check new booking id exist
+28-07-2024 01:18:26.867 [Gauge] [DEBUG] * Check new booking id exist
+28-07-2024 01:18:26.869 [java] [DEBUG] Executing 'Check new booking id exist' using 'class StepImplementation.CheckNewBookingIdExist
+28-07-2024 01:18:27.619 [java] [INFO] New Booking Id3646
+28-07-2024 01:18:28.342 [java] [INFO] Guest Name: Jim Brown
+28-07-2024 01:18:28.352 [html-report] [DEBUG] Transformed SuiteResult to report structure
+28-07-2024 01:18:28.358 [html-report] [INFO] Successfully generated html-report to => /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/reports/html-report/index.html
+28-07-2024 01:18:28.358 [html-report] [DEBUG] Done generating HTML report using theme from /Users/alierendasdemir/.gauge/plugins/html-report/4.3.1/themes/default
+28-07-2024 01:18:28.358 [xml-report] [INFO] Successfully generated xml-report to => /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/reports/xml-report
+28-07-2024 01:18:28.358 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+28-07-2024 01:18:28.358 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+28-07-2024 01:18:28.359 [java] [DEBUG] Killing Java runner...
+28-07-2024 01:18:28.360 [java] [DEBUG] Stopping execution pool...
+28-07-2024 01:18:28.360 [java] [DEBUG] Shutting down grpc server...
+28-07-2024 01:18:28.362 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+28-07-2024 01:18:28.362 [Gauge] [INFO] Scenarios:	5 executed	5 passed	0 failed	0 skipped
+28-07-2024 01:18:28.362 [Gauge] [INFO] 
+Total time taken: 5.586s
+28-07-2024 01:20:18.432 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/.gauge/screenshots
+28-07-2024 01:20:18.433 [Gauge] [DEBUG] Plugin java is already installed.
+28-07-2024 01:20:18.433 [Gauge] [DEBUG] Plugin html-report is already installed.
+28-07-2024 01:20:18.433 [Gauge] [DEBUG] Plugin xml-report is already installed.
+28-07-2024 01:20:18.433 [Gauge] [DEBUG] Parsing started.
+28-07-2024 01:20:18.433 [Gauge] [DEBUG] Started concepts parsing.
+28-07-2024 01:20:18.435 [Gauge] [DEBUG] 0 concepts parsing completed.
+28-07-2024 01:20:18.435 [Gauge] [DEBUG] Started specifications parsing.
+28-07-2024 01:20:18.435 [Gauge] [DEBUG] 1 specifications parsing completed.
+28-07-2024 01:20:18.435 [Gauge] [DEBUG] Parsing completed.
+28-07-2024 01:20:18.442 [java] [DEBUG] ***** Printing Properties/Env Values *****
+28-07-2024 01:20:18.442 [java] [DEBUG] PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/go/bin:/Users/alierendasdemir/.gauge/plugins/screenshot/0.3.0
+28-07-2024 01:20:18.442 [java] [DEBUG] JAVA_HOME: 
+28-07-2024 01:20:18.442 [java] [DEBUG] gauge_project_root: 
+28-07-2024 01:20:18.442 [java] [DEBUG] gauge_parallel_streams_count: 
+28-07-2024 01:20:18.442 [java] [DEBUG] gauge_reports_dir: reports
+28-07-2024 01:20:18.442 [java] [DEBUG] overwrite_reports: true
+28-07-2024 01:20:18.442 [java] [DEBUG] logs_directory: logs
+28-07-2024 01:20:18.442 [java] [DEBUG] enable_multithreading: false
+28-07-2024 01:20:18.442 [java] [DEBUG] gauge_specs_dir: specs
+28-07-2024 01:20:18.442 [java] [DEBUG] csv_delimiter: ,
+28-07-2024 01:20:18.442 [java] [DEBUG] gauge_java_home: PATH_TO_JAVA_HOME
+28-07-2024 01:20:18.442 [java] [DEBUG] gauge_custom_build_path: 
+28-07-2024 01:20:18.442 [java] [DEBUG] gauge_additional_libs: 
+28-07-2024 01:20:18.442 [java] [DEBUG] gauge_jvm_args: 
+28-07-2024 01:20:18.442 [java] [DEBUG] gauge_custom_compile_dir: 
+28-07-2024 01:20:18.442 [java] [DEBUG] gauge_clear_state_level: 
+28-07-2024 01:20:18.442 [java] [DEBUG] ***** END *****
+28-07-2024 01:20:19.077 [Gauge] [DEBUG] Checking updates...
+28-07-2024 01:20:19.078 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:20:19.482 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:20:19.531 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:20:19.578 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:20:19.645 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:20:19.712 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=darwin&a=arm64
+28-07-2024 01:20:19.919 [java] [DEBUG] failed to get full path for javac. lstat PATH_TO_JAVA_HOME: no such file or directory
+28-07-2024 01:20:19.919 [java] [DEBUG] running - javac [-encoding UTF-8 -d gauge_bin @/var/folders/fc/7xrvm23n7flfzzybwq2784580000gn/T/gauge_temp1251739321/eb200f080f50625e62b0f0d99c27cd57]
+28-07-2024 01:20:19.919 [java] [DEBUG] stdout/stderr is logged to logs/6280-javac.out
+28-07-2024 01:20:20.238 [java] [ERROR] src/test/java/StepImplementation.java:3: error: package io.restassured does not exist
+28-07-2024 01:20:20.238 [java] [ERROR] import io.restassured.RestAssured;
+28-07-2024 01:20:20.239 [java] [ERROR] ^
+28-07-2024 01:20:20.243 [java] [ERROR] src/test/java/StepImplementation.java:4: error: package io.restassured.builder does not exist
+28-07-2024 01:20:20.243 [java] [ERROR] import io.restassured.builder.RequestSpecBuilder;
+28-07-2024 01:20:20.243 [java] [ERROR] ^
+28-07-2024 01:20:20.246 [java] [ERROR] src/test/java/StepImplementation.java:5: error: package io.restassured.http does not exist
+28-07-2024 01:20:20.246 [java] [ERROR] import io.restassured.http.ContentType;
+28-07-2024 01:20:20.246 [java] [ERROR] ^
+28-07-2024 01:20:20.248 [java] [ERROR] src/test/java/StepImplementation.java:6: error: package io.restassured.response does not exist
+28-07-2024 01:20:20.248 [java] [ERROR] import io.restassured.response.Response;
+28-07-2024 01:20:20.248 [java] [ERROR] ^
+28-07-2024 01:20:20.251 [java] [ERROR] src/test/java/StepImplementation.java:7: error: package io.restassured.specification does not exist
+28-07-2024 01:20:20.251 [java] [ERROR] import io.restassured.specification.RequestSpecification;
+28-07-2024 01:20:20.251 [java] [ERROR] ^
+28-07-2024 01:20:20.260 [java] [ERROR] src/test/java/StepImplementation.java:11: error: package io.restassured.http does not exist
+28-07-2024 01:20:20.260 [java] [ERROR] import static io.restassured.http.ContentType.JSON;
+28-07-2024 01:20:20.260 [java] [ERROR] ^
+28-07-2024 01:20:20.262 [java] [ERROR] src/test/java/StepImplementation.java:11: error: static import only from classes and interfaces
+28-07-2024 01:20:20.262 [java] [ERROR] import static io.restassured.http.ContentType.JSON;
+28-07-2024 01:20:20.262 [java] [ERROR] ^
+28-07-2024 01:20:20.278 [java] [ERROR] src/test/java/StepImplementation.java:21: error: cannot find symbol
+28-07-2024 01:20:20.278 [java] [ERROR] RequestSpecification requestSpec = new RequestSpecBuilder()
+28-07-2024 01:20:20.278 [java] [ERROR] ^
+28-07-2024 01:20:20.278 [java] [ERROR] symbol:   class RequestSpecification
+28-07-2024 01:20:20.278 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.282 [java] [ERROR] src/test/java/StepImplementation.java:22: error: cannot find symbol
+28-07-2024 01:20:20.282 [java] [ERROR] .setContentType(JSON)
+28-07-2024 01:20:20.282 [java] [ERROR] ^
+28-07-2024 01:20:20.282 [java] [ERROR] symbol:   variable JSON
+28-07-2024 01:20:20.282 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.283 [java] [ERROR] src/test/java/StepImplementation.java:21: error: cannot find symbol
+28-07-2024 01:20:20.283 [java] [ERROR] RequestSpecification requestSpec = new RequestSpecBuilder()
+28-07-2024 01:20:20.283 [java] [ERROR] ^
+28-07-2024 01:20:20.283 [java] [ERROR] symbol:   class RequestSpecBuilder
+28-07-2024 01:20:20.283 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.283 [java] [ERROR] src/test/java/StepImplementation.java:29: error: cannot find symbol
+28-07-2024 01:20:20.283 [java] [ERROR] Response response = RestAssured.given().spec(requestSpec).post();
+28-07-2024 01:20:20.284 [java] [ERROR] ^
+28-07-2024 01:20:20.284 [java] [ERROR] symbol:   class Response
+28-07-2024 01:20:20.284 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.284 [java] [ERROR] src/test/java/StepImplementation.java:29: error: cannot find symbol
+28-07-2024 01:20:20.284 [java] [ERROR] Response response = RestAssured.given().spec(requestSpec).post();
+28-07-2024 01:20:20.284 [java] [ERROR] ^
+28-07-2024 01:20:20.284 [java] [ERROR] symbol:   variable RestAssured
+28-07-2024 01:20:20.284 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.284 [java] [ERROR] src/test/java/StepImplementation.java:37: error: cannot find symbol
+28-07-2024 01:20:20.284 [java] [ERROR] Response response = RestAssured.get(configServiceReader.getBookingIds());
+28-07-2024 01:20:20.284 [java] [ERROR] ^
+28-07-2024 01:20:20.284 [java] [ERROR] symbol:   class Response
+28-07-2024 01:20:20.284 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.285 [java] [ERROR] src/test/java/StepImplementation.java:37: error: cannot find symbol
+28-07-2024 01:20:20.285 [java] [ERROR] Response response = RestAssured.get(configServiceReader.getBookingIds());
+28-07-2024 01:20:20.285 [java] [ERROR] ^
+28-07-2024 01:20:20.285 [java] [ERROR] symbol:   variable RestAssured
+28-07-2024 01:20:20.285 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.288 [java] [ERROR] src/test/java/StepImplementation.java:48: error: cannot find symbol
+28-07-2024 01:20:20.288 [java] [ERROR] Response response = RestAssured
+28-07-2024 01:20:20.288 [java] [ERROR] ^
+28-07-2024 01:20:20.289 [java] [ERROR] symbol:   class Response
+28-07-2024 01:20:20.289 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.289 [java] [ERROR] src/test/java/StepImplementation.java:48: error: cannot find symbol
+28-07-2024 01:20:20.289 [java] [ERROR] Response response = RestAssured
+28-07-2024 01:20:20.289 [java] [ERROR] ^
+28-07-2024 01:20:20.289 [java] [ERROR] symbol:   variable RestAssured
+28-07-2024 01:20:20.289 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.290 [java] [ERROR] src/test/java/StepImplementation.java:71: error: cannot find symbol
+28-07-2024 01:20:20.290 [java] [ERROR] Response response = RestAssured
+28-07-2024 01:20:20.290 [java] [ERROR] ^
+28-07-2024 01:20:20.290 [java] [ERROR] symbol:   class Response
+28-07-2024 01:20:20.290 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.290 [java] [ERROR] src/test/java/StepImplementation.java:73: error: cannot find symbol
+28-07-2024 01:20:20.290 [java] [ERROR] .contentType(ContentType.JSON)
+28-07-2024 01:20:20.290 [java] [ERROR] ^
+28-07-2024 01:20:20.290 [java] [ERROR] symbol:   variable ContentType
+28-07-2024 01:20:20.290 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.290 [java] [ERROR] src/test/java/StepImplementation.java:71: error: cannot find symbol
+28-07-2024 01:20:20.290 [java] [ERROR] Response response = RestAssured
+28-07-2024 01:20:20.290 [java] [ERROR] ^
+28-07-2024 01:20:20.290 [java] [ERROR] symbol:   variable RestAssured
+28-07-2024 01:20:20.290 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.291 [java] [ERROR] src/test/java/StepImplementation.java:88: error: cannot find symbol
+28-07-2024 01:20:20.291 [java] [ERROR] Response response = RestAssured
+28-07-2024 01:20:20.291 [java] [ERROR] ^
+28-07-2024 01:20:20.291 [java] [ERROR] symbol:   class Response
+28-07-2024 01:20:20.291 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.291 [java] [ERROR] src/test/java/StepImplementation.java:88: error: cannot find symbol
+28-07-2024 01:20:20.291 [java] [ERROR] Response response = RestAssured
+28-07-2024 01:20:20.291 [java] [ERROR] ^
+28-07-2024 01:20:20.291 [java] [ERROR] symbol:   variable RestAssured
+28-07-2024 01:20:20.291 [java] [ERROR] location: class StepImplementation
+28-07-2024 01:20:20.300 [java] [ERROR] 21 errors
+28-07-2024 01:20:20.318 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+28-07-2024 01:20:20.318 [Gauge] [CRITICAL] Failed to start gauge API: Error occurred while waiting for runner process to finish.
+Error : exit status 1

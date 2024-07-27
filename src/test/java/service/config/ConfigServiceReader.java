@@ -9,9 +9,7 @@ import java.util.Random;
 
 public class ConfigServiceReader {
     private final Properties properties;
-    private Random random;
-
-    private final String configFilePath = "/Users/alierendasdemir/IdeaProjects/Gauge_Service_Test/src/test/java/configService.properties";
+    private final String configFilePath = "configService.properties";
 
     public ConfigServiceReader() {
         File ConfigFile = new File(configFilePath);

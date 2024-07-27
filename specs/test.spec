@@ -5,7 +5,6 @@ Create a new auth
 ----------------
 * Create a new auth
 
-
 Get all booking ids
 ----------------
 * Get all booking ids

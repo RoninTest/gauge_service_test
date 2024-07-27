@@ -84,9 +84,9 @@ public class StepImplementation extends BaseConfigService {
     }
 
     @Step("Check new booking id exist")
-    public void CheckNewBookingIdExist(){
+    public void CheckNewBookingIdExist() {
         Response response = RestAssured
-                .get(configServiceReader.getBookingIdNewBooking()+ CreateNewBooking());
+                .get(configServiceReader.getBookingIdNewBooking() + CreateNewBooking());
         response.then().statusCode(200);
 
         String firstName = response.jsonPath().getString("firstname");
