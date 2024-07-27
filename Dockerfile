@@ -20,8 +20,6 @@ WORKDIR /app
 COPY . /app
 
 COPY gauge.properties /app/gauge.properties
-COPY default.properties /app/default.properties
-COPY java.properties /app/java.properties
 
 # Config
 COPY configService.properties /app/configService.properties
