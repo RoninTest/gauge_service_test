@@ -31,5 +31,4 @@ jobs:
 
       - name: Run tests
         run: |
-          docker run ronirola/gauge-service-test:latest gauge run specs
-          
+          docker run ronirola/gauge-service-test:latest mvn gauge:execute 
