@@ -29,6 +29,13 @@ jobs:
           docker build -t ronirola/gauge-service-test:latest .
           docker push ronirola/gauge-service-test:latest
 
+      - name: Debugging Information
+        run: |
+          docker run ronirola/gauge-service-test:latest ls -la /app
+          docker run ronirola/gauge-service-test:latest gauge -v
+          docker run ronirola/gauge-service-test:latest java -version
+          docker run ronirola/gauge-service-test:latest echo $PATH
+
       - name: Run tests
         run: |
-          docker run ronirola/gauge-service-test:latest mvn gauge:execute
+          docker run ronirola/gauge-service-test:latest sh -c "Xvfb :99 -ac & mvn gauge:execute -e -X"
