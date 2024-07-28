@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     ca-certificates \
     maven \
     wget \
-    openjdk-20-jdk
+    openjdk-20.0.2-jdk
 
 RUN curl -SsL https://downloads.gauge.org/stable | sh
 
