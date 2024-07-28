@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     ca-certificates \
     maven \
     wget \
-    openjdk-17-jdk
+    openjdk-11-jdk
 
 RUN curl -SsL https://downloads.gauge.org/stable | sh
 
