@@ -69,7 +69,7 @@
         <dependency>
             <groupId>com.thoughtworks.gauge.maven</groupId>
             <artifactId>gauge-maven-plugin</artifactId>
-            <version>1.6.3</version>
+            <version>1.4.3</version>
         </dependency>
     </dependencies>
     <build>
@@ -77,15 +77,12 @@
             <plugin>
                 <groupId>com.thoughtworks.gauge.maven</groupId>
                 <artifactId>gauge-maven-plugin</artifactId>
-                <version>1.6.3</version>
+                <version>1.4.3</version>
                 <executions>
                     <execution>
                         <phase>test</phase>
                         <configuration>
                             <specsDir>specs</specsDir>
-                            <environmentVariables>
-                                <CUSTOM_ENV_VARIABLE>value</CUSTOM_ENV_VARIABLE>
-                            </environmentVariables>
                         </configuration>
                         <goals>
                             <goal>execute</goal>
